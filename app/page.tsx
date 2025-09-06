@@ -108,7 +108,7 @@ export default function HomePage() {
         <section className="py-12 bg-black/20">
           <div className="container mx-auto px-6 text-center">
             <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-widest">
-              Empresas que ya operan en el futuro
+              Empresas que ya confiaron en nosotros
             </h3>
             <motion.div
               initial="hidden"
@@ -139,7 +139,7 @@ export default function HomePage() {
                 Deja de depender de procesos manuales
               </h2>
               <p className="mt-4 text-lg text-gray-400">
-                Tu negocio merece una única fuente de verdad: confiable,
+                Tu negocio necesita una única fuente de verdad: confiable,
                 automatizada y siempre disponible. Esto es lo que logramos
                 juntos.
               </p>
