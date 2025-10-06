@@ -7,7 +7,8 @@ export const metadata: Metadata = {
     "Transformamos tus operaciones con automaciones inteligentes, eliminando el trabajo repetitivo para que te concentres en crecer.",
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
