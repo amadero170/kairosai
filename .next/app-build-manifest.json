@@ -10,6 +10,23 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
+    ],
+    "/proposal-punta-mita/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/proposal-punta-mita/page.css",
+      "static/chunks/app/proposal-punta-mita/page.js"
+    ],
+    "/test/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/test/layout.js"
+    ],
+    "/test/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/test/page.css",
+      "static/chunks/app/test/page.js"
     ]
   }
 }
