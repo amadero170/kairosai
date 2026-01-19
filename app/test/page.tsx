@@ -93,11 +93,33 @@ export default function TestPage() {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+            <p className="text-xl md:text-2xl text-zinc-300 max-w-3xl mx-auto mb-4 font-normal leading-relaxed">
               We are technical specialists implementing high-velocity HubSpot
-              architectures. No generic marketing jargon, just robust data
-              pipelines and automation logic.
+              architectures.
             </p>
+            <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto mb-4 font-light leading-relaxed">
+              No generic marketing jargon, just robust data pipelines and automation logic.
+            </p>
+            <p className="text-base md:text-lg text-zinc-500 max-w-xl mx-auto mb-10 font-light">
+              Trusted by leading companies across industries.
+            </p>
+
+            {/* Client Logos */}
+            <div className="mb-12 w-full max-w-4xl mx-auto overflow-hidden">
+              <div className="flex items-center justify-center gap-8 md:gap-12 flex-wrap opacity-60 hover:opacity-80 transition-opacity duration-500">
+                <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src="/clients-logos/air-new-zealand-logo.png" alt="Air New Zealand" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src="/clients-logos/ahoy-club-logo.webp" alt="Ahoy Club" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src="/clients-logos/dbvisit_dark-logo.svg" alt="DBVisit" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+                <img src="/clients-logos/epassi-logo.svg" alt="Epassi" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+                <img src="/clients-logos/jacobsen-logo.svg" alt="Jacobsen" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+                <img src="/clients-logos/EnergySmart Icon_Lime.svg" alt="EnergySmart" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src="/clients-logos/crew-cut-logo-1-300x77+(1).webp" alt="Crew Cut" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+                <img src="/clients-logos/medianet-logo.webp" alt="MediaNet" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+                <img src="/clients-logos/greenline-logo.jpg" alt="Greenline" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300 rounded" />
+                <img src="/clients-logos/sertronic-logo.png" alt="Sertronic" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300 invert" />
+              </div>
+            </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a

@@ -1,4 +1,4 @@
-// File: /Users/lolo/Desktop/KairosAi/kai/app/test/page.tsx
+// File: /Users/lolo/Desktop/KairosAi/code/kai/app/test/page.tsx
 import * as entry from '../../../../app/test/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

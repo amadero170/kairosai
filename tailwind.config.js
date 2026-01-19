@@ -7,8 +7,19 @@ module.exports = {
     "./*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FF6B35",
+        "primary-hover": "#E55A2B",
+        secondary: "#004E89",
+        "secondary-dark": "#001F3F",
+        dark: "#1A1A1A",
+        "light-gray": "#F5F5F5",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
-

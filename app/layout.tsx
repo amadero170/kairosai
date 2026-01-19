@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
 export const metadata: Metadata = {
-  title: "Kairos - Automatización Inteligente",
+  title: "Kairos AI - HubSpot Implementation & Business Automation",
   description:
-    "Transformamos tus operaciones con automaciones inteligentes, eliminando el trabajo repetitivo para que te concentres en crecer.",
+    "Technical HubSpot implementation by developers who've done 20+ enterprise migrations. Also: custom automation, AI agents, and workflow integration.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -18,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
-      <body>{children}</body>
+    <html lang="en" className={inter.variable}>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
