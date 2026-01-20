@@ -86,23 +86,6 @@ export default function Footer() {
               </li>
             </ul>
 
-            {/* Social Links */}
-            <div className="flex gap-4 mt-6">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-primary transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-            </div>
           </div>
         </div>
 

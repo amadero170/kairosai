@@ -12,17 +12,17 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,_rgba(0,78,137,0.03)_0%,_transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,_rgba(255,107,53,0.03)_0%,_transparent_40%)]" />
 
-      {/* Logo - Top Left */}
-      <div className="relative z-10 p-6">
+      {/* Logo - Top Centered on Mobile, Left on Desktop */}
+      <div className="relative z-10 p-6 max-md:pb-0 flex justify-center md:justify-start">
         <img
           src="/logo-kairos.svg"
           alt="Kairos"
-          className="h-12 w-auto"
+          className="h-16 md:h-12 w-auto"
         />
       </div>
 
-      <div className="flex-1 flex items-center justify-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center relative z-10">
+      <div className="flex-1 flex items-center justify-center -mt-8 md:mt-0">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -30,24 +30,31 @@ export default function Hero() {
           >
             {/* HubSpot Partner Badge - Centered */}
             <div className="flex justify-center mb-8">
-              <div className="inline-flex items-center gap-2 bg-secondary/5 border border-secondary/20 rounded-full px-4 py-2">
-                <Shield className="h-5 w-5 text-primary" />
-                <span className="text-secondary text-sm font-medium">
-                  HubSpot Solutions Provider
-                </span>
-              </div>
+              
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-dark mb-10 leading-tight max-w-5xl mx-auto">
-              Kairos Software Studio.
+            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-dark mb-6 leading-tight max-w-5xl mx-auto">
+              <span className="hidden md:inline">Kairos</span>
+              <span className="hidden md:inline">{" "}</span>
+              <span className="text-primary md:text-6xl max-md:text-3xl">Software Studio.</span>
             </h1>
 
             {/* Subheadline - Enhanced prominence */}
-            <div className="max-w-4xl mx-auto mb-14 space-y-4">
-              <p className="text-xl md:text-2xl text-gray-800 font-medium leading-relaxed">
-                We&apos;ve done 20+ enterprise HubSpot migrations.
-              </p>
+            <div className="max-w-4xl mx-auto mb-14 space-y-6">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-3">
+                <p className="text-xl md:text-2xl text-gray-800 font-medium leading-relaxed">
+                  We&apos;ve done 20+ enterprise HubSpot migrations.
+                </p>
+                {/* HubSpot Partner Badge - Smaller & Below Text on Mobile, Inline on Desktop */}
+                <div className="inline-flex items-center gap-1.5 bg-secondary/5 border border-secondary/20 rounded-full px-3 py-1 flex-shrink-0">
+                  <Shield className="h-3.5 w-3.5 text-primary" />
+                  <span className="text-secondary text-[10px] md:text-sm font-medium tracking-wide">
+                    HubSpot Solutions Provider
+                  </span>
+                </div>
+              </div>
+
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
                 We&apos;ve integrated systems for companies with $1B+ in revenue.
               </p>
