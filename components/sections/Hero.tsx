@@ -34,7 +34,7 @@ export default function Hero() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-dark mb-6 leading-tight max-w-5xl mx-auto">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-dark mb-6 md:mb-12 leading-tight max-w-5xl mx-auto">
               <span className="hidden md:inline">Kairos</span>
               <span className="hidden md:inline">{" "}</span>
               <span className="text-primary md:text-6xl max-md:text-3xl">Software Studio.</span>
@@ -64,7 +64,7 @@ export default function Hero() {
             </div>
 
             {/* Client Logos */}
-            <div className="mb-16 w-full max-w-5xl mx-auto overflow-hidden">
+            <div className="mb-16 md:my-16 w-full max-w-5xl mx-auto overflow-hidden">
               <div className="flex items-center justify-center gap-6 md:gap-10 flex-wrap">
                 <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/haas.webp" alt="Haas" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
