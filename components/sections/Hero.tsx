@@ -12,33 +12,29 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,_rgba(0,78,137,0.03)_0%,_transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,_rgba(255,107,53,0.03)_0%,_transparent_40%)]" />
 
-      {/* Logo - Top Centered on Mobile, Left on Desktop */}
-      <div className="relative z-10 p-6 max-md:pb-0 flex justify-center md:justify-start">
+      {/* Hero with Background and Overlay Logo */}
+      <div className="relative w-full mb-8 h-64 md:h-[50vh]">
         <img
-          src="/logo-kairos.svg"
-          alt="Kairos"
-          className="h-16 md:h-12 w-auto"
+          src="/fondo-claro-2.jpg"
+          alt="Background"
+          className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src="/logo-kairos-negro.png"
+            alt="Kairos Software Studio"
+            className="w-64 md:w-[28rem] h-auto object-contain"
+          />
+        </div>
       </div>
 
-      <div className="flex-1 flex items-center justify-center -mt-8 md:mt-0">
+      <div className="flex-1 flex items-center justify-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {/* HubSpot Partner Badge - Centered */}
-            <div className="flex justify-center mb-8">
-              
-            </div>
-
-            {/* Headline */}
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-dark mb-6 md:mb-12 leading-tight max-w-5xl mx-auto">
-              <span className="hidden md:inline">Kairos</span>
-              <span className="hidden md:inline">{" "}</span>
-              <span className="text-primary md:text-6xl max-md:text-3xl">Software Studio.</span>
-            </h1>
 
             {/* Subheadline - Enhanced prominence */}
             <div className="max-w-4xl mx-auto mb-14 space-y-6">
@@ -48,7 +44,7 @@ export default function Hero() {
                 </p>
                 {/* HubSpot Partner Badge - Smaller & Below Text on Mobile, Inline on Desktop */}
                 <div className="inline-flex items-center gap-1.5 bg-secondary/5 border border-secondary/20 rounded-full px-3 py-1 flex-shrink-0">
-                  <Shield className="h-3.5 w-3.5 text-primary" />
+                  <Shield className="h-3.5 w-3.5 text-[#FF6B35]" />
                   <span className="text-secondary text-[10px] md:text-sm font-medium tracking-wide">
                     HubSpot Solutions Provider
                   </span>
@@ -69,7 +65,7 @@ export default function Hero() {
                 <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/haas.webp" alt="Haas" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/air-new-zealand-logo.png" alt="Air New Zealand" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
-                <img src="/clients-logos/ahoy-club-logo.webp" alt="Ahoy Club" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/ahoy-club-logo.webp" alt="Ahoy Club" className="h-5 md:h-7 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/dbvisit_dark-logo.svg" alt="DBVisit" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/epassi-logo.svg" alt="Epassi" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/jacobsen-logo.svg" alt="Jacobsen" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />

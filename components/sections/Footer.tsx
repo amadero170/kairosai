@@ -12,11 +12,11 @@ export default function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <Image
-              src="/logo-kairos.svg"
+              src="/logo-kairos-blanco.png"
               alt="Kairos"
-              width={120}
-              height={40}
-              className="h-12 w-auto mb-4 bg-white p-2"
+              width={360}
+              height={120}
+              className="h-36 w-auto mb-4"
             />
             <p className="text-gray-400 max-w-sm">
               Technical HubSpot implementation and business automation by
