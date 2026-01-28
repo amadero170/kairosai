@@ -3,9 +3,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Shield } from "lucide-react";
+import { useTranslations } from 'next-intl';
 import Image from "next/image";
 
 export default function Hero() {
+  const t = useTranslations('Hero');
+
   return (
     <section className="min-h-screen flex flex-col bg-white relative overflow-hidden">
       {/* Subtle background decoration */}
@@ -38,24 +41,24 @@ export default function Hero() {
 
             {/* Subheadline - Enhanced prominence */}
             <div className="max-w-4xl mx-auto mb-14 space-y-6">
-              <div className="flex flex-col md:flex-row items-center justify-center gap-3">
+              <div className="flex flex-col items-center justify-center gap-3">
                 <p className="text-xl md:text-2xl text-gray-800 font-medium leading-relaxed">
-                  We&apos;ve done 20+ enterprise HubSpot migrations.
+                  {t('migrations')}
                 </p>
-                {/* HubSpot Partner Badge - Smaller & Below Text on Mobile, Inline on Desktop */}
-                <div className="inline-flex items-center gap-1.5 bg-secondary/5 border border-secondary/20 rounded-full px-3 py-1 flex-shrink-0">
+                {/* HubSpot Partner Badge - Below Text */}
+                <div className="inline-flex items-center gap-1.5 bg-secondary/5 border border-secondary/20 rounded-full px-3 py-1">
                   <Shield className="h-3.5 w-3.5 text-[#FF6B35]" />
                   <span className="text-secondary text-[10px] md:text-sm font-medium tracking-wide">
-                    HubSpot Solutions Provider
+                    {t('badge')}
                   </span>
                 </div>
               </div>
 
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                We&apos;ve integrated systems for companies with $1B+ in revenue.
+                {t('integrated')}
               </p>
               <p className="text-base md:text-lg text-gray-500 leading-relaxed">
-                These are some of the companies we&apos;ve worked with:
+                {t('clientsIntro')}
               </p>
             </div>
 
@@ -83,7 +86,7 @@ export default function Hero() {
                 href="https://meetings.hubspot.com/amadero"
                 className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
               >
-                Schedule Technical Consultation
+                {t('cta')}
                 <ArrowRight className="h-5 w-5" />
               </a>
             </div>

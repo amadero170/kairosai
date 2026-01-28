@@ -2,9 +2,12 @@
 
 import React from "react";
 import Image from "next/image";
-import { Mail, Linkedin, Twitter } from "lucide-react";
+import { Mail } from "lucide-react";
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('Footer');
+
   return (
     <footer className="bg-dark border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -19,21 +22,20 @@ export default function Footer() {
               className="h-36 w-auto mb-4"
             />
             <p className="text-gray-400 max-w-sm">
-              Technical HubSpot implementation and business automation by
-              developers who understand your systems.
+              {t('description')}
             </p>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Services</h4>
+            <h4 className="font-semibold text-white mb-4">{t('servicesTitle')}</h4>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#services"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  HubSpot Implementation
+                  {t('hubspotImplementation')}
                 </a>
               </li>
               <li>
@@ -41,7 +43,7 @@ export default function Footer() {
                   href="#services"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Data Migration
+                  {t('dataMigration')}
                 </a>
               </li>
               <li>
@@ -49,7 +51,7 @@ export default function Footer() {
                   href="#services"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Custom Integrations
+                  {t('customIntegrations')}
                 </a>
               </li>
               <li>
@@ -57,7 +59,7 @@ export default function Footer() {
                   href="/automation"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Business Automation
+                  {t('businessAutomation')}
                 </a>
               </li>
             </ul>
@@ -65,7 +67,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Contact</h4>
+            <h4 className="font-semibold text-white mb-4">{t('contactTitle')}</h4>
             <ul className="space-y-2">
               <li>
                 <a
@@ -81,7 +83,7 @@ export default function Footer() {
                   href="https://meetings.hubspot.com/amadero"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
-                  Schedule a Call
+                  {t('scheduleCall')}
                 </a>
               </li>
             </ul>
@@ -92,10 +94,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Kairos AI. All rights reserved.
+            © {new Date().getFullYear()} Kairos AI. {t('copyright')}
           </p>
           <p className="text-gray-500 text-sm">
-            Technical HubSpot Implementation & Business Automation
+            {t('tagline')}
           </p>
         </div>
       </div>

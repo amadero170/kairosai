@@ -2,46 +2,44 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
-const steps = [
-  {
-    number: "1",
-    title: "Discovery Call",
-    time: "45-60 min",
-    description:
-      "We ask detailed questions about your current systems and needs. No sales pitch—just technical understanding.",
-  },
-  {
-    number: "2",
-    title: "Detailed Proposal",
-    time: "2-3 days",
-    description:
-      "Clear scope: what's included, what's not, timeline, investment. No hidden costs or surprise 'additional modules.'",
-  },
-  {
-    number: "3",
-    title: "Iterative Implementation",
-    time: "2-8 weeks",
-    description:
-      "Weekly check-ins showing real progress. You see things working before everything's done.",
-  },
-  {
-    number: "4",
-    title: "Training & Handoff",
-    time: "1-2 sessions",
-    description:
-      "We train your team and provide documentation. You're not dependent on us.",
-  },
-  {
-    number: "5",
-    title: "Optional Support",
-    time: "Ongoing",
-    description:
-      "Monthly retainer for ongoing improvements if you want it. Not required.",
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function HowWeWork() {
+  const t = useTranslations('HowWeWork');
+
+  const steps = [
+    {
+      number: "1",
+      title: t('steps.discovery.title'),
+      time: t('steps.discovery.time'),
+      description: t('steps.discovery.description'),
+    },
+    {
+      number: "2",
+      title: t('steps.proposal.title'),
+      time: t('steps.proposal.time'),
+      description: t('steps.proposal.description'),
+    },
+    {
+      number: "3",
+      title: t('steps.implementation.title'),
+      time: t('steps.implementation.time'),
+      description: t('steps.implementation.description'),
+    },
+    {
+      number: "4",
+      title: t('steps.training.title'),
+      time: t('steps.training.time'),
+      description: t('steps.training.description'),
+    },
+    {
+      number: "5",
+      title: t('steps.support.title'),
+      time: t('steps.support.time'),
+      description: t('steps.support.description'),
+    },
+  ];
+
   return (
     <section id="how-we-work" className="py-16 md:py-24 bg-light-gray">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,8 +51,8 @@ export default function HowWeWork() {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-dark mb-4">
-            Our Process:{" "}
-            <span className="text-primary">Fast, Iterative, Transparent</span>
+            {t('title')}{" "}
+            <span className="text-primary">{t('titleHighlight')}</span>
           </h2>
         </motion.div>
 

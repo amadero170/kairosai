@@ -11,43 +11,42 @@ import {
   Clock,
   DollarSign,
 } from "lucide-react";
-
-const services = [
-  {
-    icon: Settings,
-    title: "Technical Implementation",
-    description:
-      "Complete setup of Sales, Marketing, or Service Hub. Custom properties, pipelines, workflows, and dashboards.",
-    timeline: "2-4 weeks",
-    investment: "$30K-60K MXN",
-  },
-  {
-    icon: Database,
-    title: "Enterprise Migration",
-    description:
-      "Clean data migration from Salesforce, Dynamics, MailChimp, or Excel. Deduplication, validation, and relationship mapping.",
-    timeline: "1-3 weeks",
-    investment: "$25K-70K MXN",
-  },
-  {
-    icon: Plug,
-    title: "Custom Integrations",
-    description:
-      "Connect HubSpot with your specialized tools via API or middleware. ERP systems, property management, custom databases.",
-    timeline: "2-4 weeks",
-    investment: "$35K-90K MXN",
-  },
-  {
-    icon: Search,
-    title: "HubSpot Audit & Optimization",
-    description:
-      "Review your current setup and identify improvement opportunities. Workflow optimization, data cleanup, process recommendations.",
-    timeline: "1 week",
-    investment: "$15K-30K MXN",
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function HubSpotServices() {
+  const t = useTranslations('HubSpotServices');
+
+  const services = [
+    {
+      icon: Settings,
+      title: t('services.implementation.title'),
+      description: t('services.implementation.description'),
+      timeline: t('services.implementation.timeline'),
+      investment: t('services.implementation.investment'),
+    },
+    {
+      icon: Database,
+      title: t('services.migration.title'),
+      description: t('services.migration.description'),
+      timeline: t('services.migration.timeline'),
+      investment: t('services.migration.investment'),
+    },
+    {
+      icon: Plug,
+      title: t('services.integrations.title'),
+      description: t('services.integrations.description'),
+      timeline: t('services.integrations.timeline'),
+      investment: t('services.integrations.investment'),
+    },
+    {
+      icon: Search,
+      title: t('services.audit.title'),
+      description: t('services.audit.description'),
+      timeline: t('services.audit.timeline'),
+      investment: t('services.audit.investment'),
+    },
+  ];
+
   return (
     <section id="services" className="py-16 md:py-24 bg-light-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,7 +58,7 @@ export default function HubSpotServices() {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-dark mb-4">
-            HubSpot <span className="text-primary">Solutions</span>
+            {t('title')} <span className="text-primary">{t('titleHighlight')}</span>
           </h2>
         </motion.div>
 
@@ -120,7 +119,7 @@ export default function HubSpotServices() {
             href="https://meetings.hubspot.com/amadero"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
           >
-            Get a Custom Quote
+            {t('cta')}
             <ArrowRight className="h-5 w-5" />
           </a>
         </motion.div>

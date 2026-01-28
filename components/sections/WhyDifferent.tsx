@@ -3,8 +3,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Code, Users, MessageSquare } from "lucide-react";
+import { useTranslations } from 'next-intl';
 
 export default function WhyDifferent() {
+  const t = useTranslations('WhyDifferent');
+
   return (
     <section className="py-16 md:py-24 bg-light-gray">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -15,21 +18,17 @@ export default function WhyDifferent() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-dark mb-8">
-            Why We&apos;re Different:{" "}
+            {t('title')}{" "}
             <span className="text-primary">
-              Developers First, Not Marketers
+              {t('titleHighlight')}
             </span>
           </h2>
 
           <div className="space-y-6 text-lg md:text-xl text-gray-600 leading-relaxed">
-            <p>At Kairos, everyone on the team is technical—including sales.</p>
-            <p>
-              When you talk to us about migrating from Salesforce or building a
-              custom integration with your ERP, you&apos;re speaking directly
-              with the developers who will build it.
-            </p>
+            <p>{t('paragraph1')}</p>
+            <p>{t('paragraph2')}</p>
             <p className="font-semibold text-dark">
-              No telephone game. No project managers translating. No surprises.
+              {t('paragraph3')}
             </p>
           </div>
 
@@ -45,8 +44,8 @@ export default function WhyDifferent() {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Code className="h-7 w-7 text-primary" />
               </div>
-              <span className="font-semibold text-dark">Technical Team</span>
-              <span className="text-sm text-gray-500">Everyone codes</span>
+              <span className="font-semibold text-dark">{t('technicalTeam')}</span>
+              <span className="text-sm text-gray-500">{t('everyoneCodes')}</span>
             </motion.div>
 
             <motion.div
@@ -59,9 +58,9 @@ export default function WhyDifferent() {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <MessageSquare className="h-7 w-7 text-primary" />
               </div>
-              <span className="font-semibold text-dark">Direct Access</span>
+              <span className="font-semibold text-dark">{t('directAccess')}</span>
               <span className="text-sm text-gray-500">
-                Talk to the builders
+                {t('talkToBuilders')}
               </span>
             </motion.div>
 
@@ -75,9 +74,9 @@ export default function WhyDifferent() {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Users className="h-7 w-7 text-primary" />
               </div>
-              <span className="font-semibold text-dark">No Middlemen</span>
+              <span className="font-semibold text-dark">{t('noMiddlemen')}</span>
               <span className="text-sm text-gray-500">
-                Zero translation errors
+                {t('zeroErrors')}
               </span>
             </motion.div>
           </div>

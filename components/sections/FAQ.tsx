@@ -3,42 +3,38 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-
-const faqs = [
-  {
-    question: "What if we already have a poorly configured CRM?",
-    answer:
-      "No problem. We start with an audit to understand the current state, identify what works and what doesn't, and create a plan to optimize without losing historical data. Whether it's HubSpot, Salesforce, or Pipedrive, we've handled complex cleanup projects.",
-  },
-  {
-    question: "Will we lose data during migration?",
-    answer:
-      "No. Our process includes data validation before, during, and after migration. We make complete backups and run in a test environment first. In 20+ enterprise migrations, we have never lost a single record.",
-  },
-  {
-    question: "How do AI agents integrate with our existing systems?",
-    answer:
-      "We build custom AI agents that connect directly to your CRM, databases, and communication channels. They can handle customer inquiries, qualify leads, schedule appointments, and more—all while syncing data back to your systems in real-time.",
-  },
-  {
-    question: "Can you automate workflows between different tools?",
-    answer:
-      "Absolutely. We specialize in connecting disparate systems—CRMs, ERPs, inventory systems, communication tools. If there's an API, we can integrate it. If there isn't, we build custom solutions.",
-  },
-  {
-    question: "How long does a typical project take?",
-    answer:
-      "It depends on the scope: basic CRM implementation 2-4 weeks, migrations 1-3 weeks, custom integrations 2-4 weeks, AI agent development 3-6 weeks. We give you a specific timeline in the proposal.",
-  },
-  {
-    question: "What if we need changes afterwards?",
-    answer:
-      "We train your team so they can make minor adjustments. For major changes, we offer optional support through monthly retainer or one-off projects. You're not tied to us, but we're available if you need us.",
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function FAQ() {
+  const t = useTranslations('FAQ');
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+  const faqs = [
+    {
+      question: t('questions.q1.question'),
+      answer: t('questions.q1.answer'),
+    },
+    {
+      question: t('questions.q2.question'),
+      answer: t('questions.q2.answer'),
+    },
+    {
+      question: t('questions.q3.question'),
+      answer: t('questions.q3.answer'),
+    },
+    {
+      question: t('questions.q4.question'),
+      answer: t('questions.q4.answer'),
+    },
+    {
+      question: t('questions.q5.question'),
+      answer: t('questions.q5.answer'),
+    },
+    {
+      question: t('questions.q6.question'),
+      answer: t('questions.q6.answer'),
+    },
+  ];
 
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -51,7 +47,7 @@ export default function FAQ() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-dark mb-4">
-            Frequently Asked <span className="text-primary">Questions</span>
+            {t('title')} <span className="text-primary">{t('titleHighlight')}</span>
           </h2>
         </motion.div>
 

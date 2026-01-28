@@ -1,0 +1,146 @@
+{
+  "Hero": {
+    "migrations": "Hemos realizado más de 20 migraciones empresariales a HubSpot.",
+    "integrated": "Hemos integrado sistemas para empresas con más de $1B en ingresos.",
+    "clientsIntro": "Estas son algunas de las empresas con las que hemos trabajado:",
+    "badge": "HubSpot Solutions Provider",
+    "cta": "Agenda una Consulta Técnica"
+  },
+  "HubSpotServices": {
+    "title": "Soluciones",
+    "titleHighlight": "HubSpot",
+    "services": {
+      "implementation": {
+        "title": "Implementación Técnica",
+        "description": "Configuración completa de Sales, Marketing o Service Hub. Propiedades personalizadas, pipelines, workflows y dashboards.",
+        "timeline": "2-4 semanas",
+        "investment": "$30K-60K MXN"
+      },
+      "migration": {
+        "title": "Migración Empresarial",
+        "description": "Migración limpia de datos desde Salesforce, Dynamics, MailChimp o Excel. Deduplicación, validación y mapeo de relaciones.",
+        "timeline": "1-3 semanas",
+        "investment": "$25K-70K MXN"
+      },
+      "integrations": {
+        "title": "Integraciones Personalizadas",
+        "description": "Conecta HubSpot con tus herramientas especializadas vía API o middleware. Sistemas ERP, administración de propiedades, bases de datos personalizadas.",
+        "timeline": "2-4 semanas",
+        "investment": "$35K-90K MXN"
+      },
+      "audit": {
+        "title": "Auditoría y Optimización HubSpot",
+        "description": "Revisamos tu configuración actual e identificamos oportunidades de mejora. Optimización de workflows, limpieza de datos, recomendaciones de procesos.",
+        "timeline": "1 semana",
+        "investment": "$15K-30K MXN"
+      }
+    },
+    "cta": "Obtener Cotización"
+  },
+  "WhyDifferent": {
+    "title": "Por Qué Somos Diferentes:",
+    "titleHighlight": "Desarrolladores Primero, No Marketers",
+    "paragraph1": "En Kairos, todos en el equipo son técnicos—incluyendo ventas.",
+    "paragraph2": "Cuando nos hablas sobre migrar desde Salesforce o construir una integración personalizada con tu ERP, estás hablando directamente con los desarrolladores que lo construirán.",
+    "paragraph3": "Sin teléfono descompuesto. Sin project managers traduciendo. Sin sorpresas.",
+    "technicalTeam": "Equipo Técnico",
+    "everyoneCodes": "Todos programan",
+    "directAccess": "Acceso Directo",
+    "talkToBuilders": "Habla con los que construyen",
+    "noMiddlemen": "Sin Intermediarios",
+    "zeroErrors": "Cero errores de traducción"
+  },
+  "HowWeWork": {
+    "title": "Nuestro Proceso:",
+    "titleHighlight": "Rápido, Iterativo, Transparente",
+    "steps": {
+      "discovery": {
+        "title": "Llamada de Descubrimiento",
+        "time": "45-60 min",
+        "description": "Hacemos preguntas detalladas sobre tus sistemas actuales y necesidades. Sin pitch de ventas—solo entendimiento técnico."
+      },
+      "proposal": {
+        "title": "Propuesta Detallada",
+        "time": "2-3 días",
+        "description": "Alcance claro: qué incluye, qué no, cronograma, inversión. Sin costos ocultos ni 'módulos adicionales' sorpresa."
+      },
+      "implementation": {
+        "title": "Implementación Iterativa",
+        "time": "2-8 semanas",
+        "description": "Check-ins semanales mostrando progreso real. Ves las cosas funcionando antes de que todo esté terminado."
+      },
+      "training": {
+        "title": "Capacitación y Entrega",
+        "time": "1-2 sesiones",
+        "description": "Capacitamos a tu equipo y proporcionamos documentación. No dependes de nosotros."
+      },
+      "support": {
+        "title": "Soporte Opcional",
+        "time": "Continuo",
+        "description": "Retainer mensual para mejoras continuas si lo deseas. No es obligatorio."
+      }
+    }
+  },
+  "BeyondHubSpot": {
+    "title": "Lo Que",
+    "titleHighlight": "Construimos",
+    "subtitle": "Soluciones técnicas que escalan con tu negocio",
+    "services": {
+      "crm": "Integración y migración de CRM (Salesforce, Pipedrive, HubSpot)",
+      "ai": "Implementación de agentes de IA para tus necesidades específicas",
+      "workflow": "Automatización de workflows conectando tus herramientas existentes",
+      "dashboards": "Portales y dashboards personalizados con datos en tiempo real",
+      "inventory": "Sistemas de inventario y pronóstico para manufactura"
+    },
+    "cta": "Platiquemos de tu Proyecto"
+  },
+  "FAQ": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "questions": {
+      "q1": {
+        "question": "¿Qué pasa si ya tenemos un CRM mal configurado?",
+        "answer": "No hay problema. Comenzamos con una auditoría para entender el estado actual, identificar qué funciona y qué no, y crear un plan para optimizar sin perder datos históricos. Ya sea HubSpot, Salesforce o Pipedrive, hemos manejado proyectos complejos de limpieza."
+      },
+      "q2": {
+        "question": "¿Perderemos datos durante la migración?",
+        "answer": "No. Nuestro proceso incluye validación de datos antes, durante y después de la migración. Hacemos respaldos completos y corremos en un ambiente de prueba primero. En más de 20 migraciones empresariales, nunca hemos perdido un solo registro."
+      },
+      "q3": {
+        "question": "¿Cómo se integran los agentes de IA con nuestros sistemas existentes?",
+        "answer": "Construimos agentes de IA personalizados que se conectan directamente a tu CRM, bases de datos y canales de comunicación. Pueden manejar consultas de clientes, calificar leads, agendar citas y más—todo mientras sincronizan datos de vuelta a tus sistemas en tiempo real."
+      },
+      "q4": {
+        "question": "¿Pueden automatizar workflows entre diferentes herramientas?",
+        "answer": "Absolutamente. Nos especializamos en conectar sistemas dispares—CRMs, ERPs, sistemas de inventario, herramientas de comunicación. Si hay una API, podemos integrarlo. Si no la hay, construimos soluciones personalizadas."
+      },
+      "q5": {
+        "question": "¿Cuánto tiempo toma un proyecto típico?",
+        "answer": "Depende del alcance: implementación básica de CRM 2-4 semanas, migraciones 1-3 semanas, integraciones personalizadas 2-4 semanas, desarrollo de agentes IA 3-6 semanas. Te damos un cronograma específico en la propuesta."
+      },
+      "q6": {
+        "question": "¿Qué pasa si necesitamos cambios después?",
+        "answer": "Capacitamos a tu equipo para que puedan hacer ajustes menores. Para cambios mayores, ofrecemos soporte opcional a través de retainer mensual o proyectos puntuales. No estás atado a nosotros, pero estamos disponibles si nos necesitas."
+      }
+    }
+  },
+  "FinalCTA": {
+    "title": "¿Listo para Construir el Sistema",
+    "titleHighlight": "que Necesitas?",
+    "description": "Agenda una consulta técnica de 30 minutos. Discutiremos tus retos y te daremos un plan de acción claro—trabajes con nosotros o no.",
+    "cta": "Agendar Consulta Gratis",
+    "emailPrefix": "O escríbenos a"
+  },
+  "Footer": {
+    "description": "Implementación técnica de HubSpot y automatización de negocios por desarrolladores que entienden tus sistemas.",
+    "servicesTitle": "Servicios",
+    "hubspotImplementation": "Implementación HubSpot",
+    "dataMigration": "Migración de Datos",
+    "customIntegrations": "Integraciones Personalizadas",
+    "businessAutomation": "Automatización de Negocios",
+    "contactTitle": "Contacto",
+    "scheduleCall": "Agendar una Llamada",
+    "copyright": "Todos los derechos reservados.",
+    "tagline": "Implementación Técnica de HubSpot y Automatización de Negocios"
+  }
+}
