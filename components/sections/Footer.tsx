@@ -93,9 +93,14 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Kairos AI. {t('copyright')}
-          </p>
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <p className="text-gray-500 text-sm">
+              © {new Date().getFullYear()} Kairos AI. {t('copyright')}
+            </p>
+            <p className="text-gray-600 text-xs">
+              {t('legalName')}
+            </p>
+          </div>
           <p className="text-gray-500 text-sm">
             {t('tagline')}
           </p>
