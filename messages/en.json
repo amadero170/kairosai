@@ -1,147 +1,168 @@
 {
   "Hero": {
-    "migrations": "We've done 20+ enterprise HubSpot migrations.",
-    "integrated": "We've integrated systems for companies with $1B+ in revenue.",
-    "clientsIntro": "These are some of the companies we've worked with:",
-    "badge": "HubSpot Solutions Provider",
-    "cta": "Schedule Technical Consultation"
-  },
-  "HubSpotServices": {
-    "title": "HubSpot",
-    "titleHighlight": "Solutions",
-    "services": {
-      "implementation": {
-        "title": "Technical Implementation",
-        "description": "Complete setup of Sales, Marketing, or Service Hub. Custom properties, pipelines, workflows, and dashboards.",
-        "timeline": "2-4 weeks",
-        "investment": "$30K-60K MXN"
-      },
-      "migration": {
-        "title": "Enterprise Migration",
-        "description": "Clean data migration from Salesforce, Dynamics, MailChimp, or Excel. Deduplication, validation, and relationship mapping.",
-        "timeline": "1-3 weeks",
-        "investment": "$25K-70K MXN"
-      },
-      "integrations": {
-        "title": "Custom Integrations",
-        "description": "Connect HubSpot with your specialized tools via API or middleware. ERP systems, property management, custom databases.",
-        "timeline": "2-4 weeks",
-        "investment": "$35K-90K MXN"
-      },
-      "audit": {
-        "title": "HubSpot Audit & Optimization",
-        "description": "Review your current setup and identify improvement opportunities. Workflow optimization, data cleanup, process recommendations.",
-        "timeline": "1 week",
-        "investment": "$15K-30K MXN"
-      }
-    },
-    "cta": "Get a Custom Quote"
+    "migrations": "Simplify your hotel's guest communications.",
+    "integrated": "One inbox for WhatsApp, Instagram, Messenger, email, and more — powered by AI.",
+    "clientsIntro": "Built by a team that has delivered enterprise solutions for:",
+    "badge": "Omnichannel Communication Partner",
+    "cta": "Book a Discovery Call"
   },
   "WhyDifferent": {
-    "title": "Why We're Different:",
-    "titleHighlight": "Developers First, Not Marketers",
-    "paragraph1": "At Kairos, everyone on the team is technical—including sales.",
-    "paragraph2": "When you talk to us about migrating from Salesforce or building a custom integration with your ERP, you're speaking directly with the developers who will build it.",
-    "paragraph3": "No telephone game. No project managers translating. No surprises.",
-    "technicalTeam": "Technical Team",
-    "everyoneCodes": "Everyone codes",
-    "directAccess": "Direct Access",
-    "talkToBuilders": "Talk to the builders",
-    "noMiddlemen": "No Middlemen",
-    "zeroErrors": "Zero translation errors"
+    "title": "Built for",
+    "titleHighlight": "Hospitality",
+    "paragraph1": "Your guests reach out on WhatsApp, Instagram, Messenger, email, and your website — often all at once.",
+    "paragraph2": "We unify every channel into a single inbox so your front desk team never misses a message, with AI handling FAQs, language translation, and after-hours replies automatically.",
+    "paragraph3": "Less chaos. Faster replies. Happier guests.",
+    "technicalTeam": "One Inbox",
+    "everyoneCodes": "All channels, one screen",
+    "directAccess": "AI Concierge",
+    "talkToBuilders": "24/7 automated replies",
+    "noMiddlemen": "Full Onboarding",
+    "zeroErrors": "We set everything up for you"
+  },
+  "BeyondHubSpot": {
+    "title": "What You",
+    "titleHighlight": "Get",
+    "subtitle": "Everything your hotel needs to communicate better with guests",
+    "services": {
+      "crm": "Unified inbox for WhatsApp, Instagram, Messenger, email, and web chat",
+      "ai": "AI concierge that answers guest questions about amenities, check-in, tours, and room service",
+      "workflow": "Automated replies in multiple languages — English, Spanish, and more",
+      "dashboards": "Real-time analytics: response times, guest satisfaction, agent performance",
+      "inventory": "Automated post-stay feedback requests and review generation"
+    },
+    "cta": "See It in Action"
   },
   "HowWeWork": {
-    "title": "Our Process:",
-    "titleHighlight": "Fast, Iterative, Transparent",
+    "title": "How We",
+    "titleHighlight": "Get You Live",
     "steps": {
       "discovery": {
         "title": "Discovery Call",
-        "time": "45-60 min",
-        "description": "We ask detailed questions about your current systems and needs. No sales pitch—just technical understanding."
+        "time": "30 min",
+        "description": "We learn about your hotel, your guest communication challenges, and which channels matter most to your team."
       },
       "proposal": {
-        "title": "Detailed Proposal",
-        "time": "2-3 days",
-        "description": "Clear scope: what's included, what's not, timeline, investment. No hidden costs or surprise 'additional modules.'"
+        "title": "Setup & Configuration",
+        "time": "1 week",
+        "description": "We connect your WhatsApp, Instagram, Messenger, and email to your unified inbox. No technical work required on your end."
       },
       "implementation": {
-        "title": "Iterative Implementation",
-        "time": "2-8 weeks",
-        "description": "Weekly check-ins showing real progress. You see things working before everything's done."
+        "title": "AI Training",
+        "time": "3-5 days",
+        "description": "We configure your AI concierge with your hotel's specific information — amenities, policies, hours, services, and FAQs."
       },
       "training": {
-        "title": "Training & Handoff",
+        "title": "Team Training",
         "time": "1-2 sessions",
-        "description": "We train your team and provide documentation. You're not dependent on us."
+        "description": "We train your front desk and reservations team on the inbox. It's simple — if they can use WhatsApp, they can use this."
       },
       "support": {
-        "title": "Optional Support",
-        "time": "Ongoing",
-        "description": "Monthly retainer for ongoing improvements if you want it. Not required."
+        "title": "Ongoing Support",
+        "time": "Always",
+        "description": "We stay with you. Monthly check-ins, AI optimization, and priority support whenever you need it."
       }
     }
-  },
-  "BeyondHubSpot": {
-    "title": "What We",
-    "titleHighlight": "Build",
-    "subtitle": "Technical solutions that scale with your business",
-    "services": {
-      "crm": "CRM integration & migration (Salesforce, Pipedrive, HubSpot)",
-      "ai": "AI agents implementation for your specific needs",
-      "workflow": "Workflow automation connecting your existing tools",
-      "dashboards": "Custom portals and dashboards with real-time data",
-      "inventory": "Inventory and forecast systems for manufacturing"
-    },
-    "cta": "Discuss Your Project"
   },
   "FAQ": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
     "questions": {
       "q1": {
-        "question": "What if we already have a poorly configured CRM?",
-        "answer": "No problem. We start with an audit to understand the current state, identify what works and what doesn't, and create a plan to optimize without losing historical data. Whether it's HubSpot, Salesforce, or Pipedrive, we've handled complex cleanup projects."
+        "question": "Which messaging channels do you support?",
+        "answer": "We support WhatsApp Business, Instagram DMs, Facebook Messenger, email, Telegram, web chat (live chat widget on your website), and SMS. All messages arrive in a single inbox that your team manages from one screen."
       },
       "q2": {
-        "question": "Will we lose data during migration?",
-        "answer": "No. Our process includes data validation before, during, and after migration. We make complete backups and run in a test environment first. In 20+ enterprise migrations, we have never lost a single record."
+        "question": "How does the AI concierge work?",
+        "answer": "We train an AI assistant with your hotel's specific information — amenities, check-in/out times, restaurant hours, spa services, local tours, and policies. It responds to guest questions automatically in multiple languages, 24/7. When a question requires human attention, it seamlessly hands off to your team."
       },
       "q3": {
-        "question": "How do AI agents integrate with our existing systems?",
-        "answer": "We build custom AI agents that connect directly to your CRM, databases, and communication channels. They can handle customer inquiries, qualify leads, schedule appointments, and more—all while syncing data back to your systems in real-time."
+        "question": "Do my guests know they're talking to AI?",
+        "answer": "The AI responds naturally and in context. Most guests won't notice the difference. However, whenever a guest asks for a human or the AI detects a complex request, it immediately transfers the conversation to your team with full context."
       },
       "q4": {
-        "question": "Can you automate workflows between different tools?",
-        "answer": "Absolutely. We specialize in connecting disparate systems—CRMs, ERPs, inventory systems, communication tools. If there's an API, we can integrate it. If there isn't, we build custom solutions."
+        "question": "How long does it take to get set up?",
+        "answer": "Most hotels are fully live within 2 weeks. We handle all the technical configuration — connecting your channels, training the AI, and setting up your inbox. Your team only needs to attend 1-2 short training sessions."
       },
       "q5": {
-        "question": "How long does a typical project take?",
-        "answer": "It depends on the scope: basic CRM implementation 2-4 weeks, migrations 1-3 weeks, custom integrations 2-4 weeks, AI agent development 3-6 weeks. We give you a specific timeline in the proposal."
+        "question": "Can we use this for multiple properties?",
+        "answer": "Yes. Each property gets its own channels and AI configuration, but your management team can oversee all properties from a single dashboard. Perfect for hotel groups and chains."
       },
       "q6": {
-        "question": "What if we need changes afterwards?",
-        "answer": "We train your team so they can make minor adjustments. For major changes, we offer optional support through monthly retainer or one-off projects. You're not tied to us, but we're available if you need us."
+        "question": "What happens if we already use WhatsApp Business on a phone?",
+        "answer": "We migrate your number to the WhatsApp Business API, which allows multiple agents to respond from the same number simultaneously through the inbox. Your guests keep messaging the same number — nothing changes for them."
       }
     }
   },
   "FinalCTA": {
-    "title": "Ready to Build the System",
-    "titleHighlight": "You Need?",
-    "description": "Book a 30-minute technical consultation. We'll discuss your challenges and give you a clear plan of action—whether you work with us or not.",
-    "cta": "Schedule Free Consultation",
+    "title": "Ready to Simplify Your",
+    "titleHighlight": "Guest Communications?",
+    "description": "Book a 30-minute discovery call. We'll show you how hotels like yours are using one inbox to respond faster, automate FAQs, and keep guests happy across every channel.",
+    "cta": "Book a Discovery Call",
     "emailPrefix": "Or email us at"
   },
+  "SpeedToLead": {
+    "title": "The First Responder",
+    "titleHighlight": "Wins the Booking",
+    "subtitle": "In highly competitive areas like Puerto Vallarta or Bucerías, speed isn't an option—it's your greatest competitive advantage.",
+    "stats": {
+      "fiveMin": {
+        "title": "The 5-Minute Rule",
+        "description": "The odds of qualifying a lead are 100 times higher if contacted within the first 5 minutes."
+      },
+      "firstResponder": {
+        "title": "First Response Wins",
+        "description": "78% of customers purchase from the vendor that responds first to their inquiry."
+      },
+      "interestDrop": {
+        "title": "Interest Decay",
+        "description": "The odds of closing a sale decrease 10 times after just 10 minutes of waiting."
+      },
+      "travelerExpectation": {
+        "title": "Digital Expectation",
+        "description": "90% of travelers rate an \"immediate\" response as essential when inquiring before booking."
+      }
+    },
+    "arguments": {
+      "window": {
+        "title": "The Window of Desire is Ephemeral",
+        "description": "When a tourist asks, they are in \"buying mode.\" If you delay, they've already seen three more options. Kairos freezes that desire instantly."
+      },
+      "ghosting": {
+        "title": "End Hotel Ghosting",
+        "description": "Prevent messages from being left on read. By centralizing WhatsApp, Messenger, and Instagram, you eliminate human error entirely."
+      },
+      "inventory": {
+        "title": "Inventory is Perishable",
+        "description": "A room not sold today is revenue lost forever. Speed to Lead is the cheapest tool to boost occupancy."
+      },
+      "authority": {
+        "title": "Authority and Trust",
+        "description": "In the luxury sector, speed translates to status. Responding in seconds projects a premium service that justifies higher rates."
+      }
+    },
+    "calculator": {
+      "title": "How Much Revenue Are You Losing?",
+      "description": "Discover the real impact of not responding on time to your monthly inquiries.",
+      "leadsLabel": "Monthly Inquiries",
+      "bookingLabel": "Average Booking Value (USD)",
+      "responseLabel": "Immediate Response Rate (%)",
+      "resultLabel": "Potential Monthly Recoverable Revenue",
+      "cta": "Stop losing bookings today"
+    }
+  },
   "Footer": {
-    "description": "Technical HubSpot implementation and business automation by developers who understand your systems.",
-    "servicesTitle": "Services",
-    "hubspotImplementation": "HubSpot Implementation",
-    "dataMigration": "Data Migration",
-    "customIntegrations": "Custom Integrations",
-    "businessAutomation": "Business Automation",
+    "description": "Omnichannel guest communication platform for hotels. One inbox for WhatsApp, Instagram, Messenger, and more — powered by AI.",
+    "servicesTitle": "Solutions",
+    "hubspotImplementation": "Omnichannel Inbox",
+    "dataMigration": "AI Concierge",
+    "customIntegrations": "Channel Integration",
+    "businessAutomation": "Guest Automation",
     "contactTitle": "Contact",
     "scheduleCall": "Schedule a Call",
     "copyright": "All rights reserved.",
     "legalName": "Operated by MARIANA VALDIVIA REYES",
-    "tagline": "Technical HubSpot Implementation & Business Automation"
+    "tagline": "Omnichannel Guest Communications for Hotels",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
   }
 }

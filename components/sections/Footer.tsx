@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Mail } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
@@ -31,36 +32,24 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">{t('servicesTitle')}</h4>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#services"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
+                <span className="text-gray-400">
                   {t('hubspotImplementation')}
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#services"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
+                <span className="text-gray-400">
                   {t('dataMigration')}
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="#services"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
+                <span className="text-gray-400">
                   {t('customIntegrations')}
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="/automation"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
+                <span className="text-gray-400">
                   {t('businessAutomation')}
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -80,7 +69,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://meetings.hubspot.com/amadero"
+                  href="https://cal.com/kairos-ai/discovery-call"
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   {t('scheduleCall')}
@@ -95,15 +84,21 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col items-center md:items-start gap-1">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Kairos AI. {t('copyright')}
+              © {new Date().getFullYear()} Kairos Automation. {t('copyright')}
             </p>
             <p className="text-gray-600 text-xs">
               {t('legalName')}
             </p>
           </div>
-          <p className="text-gray-500 text-sm">
-            {t('tagline')}
-          </p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy-policy" className="text-gray-500 text-sm hover:text-primary transition-colors">
+              {t('privacyPolicy')}
+            </Link>
+            <span className="text-gray-700">|</span>
+            <Link href="/terms-of-service" className="text-gray-500 text-sm hover:text-primary transition-colors">
+              {t('termsOfService')}
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

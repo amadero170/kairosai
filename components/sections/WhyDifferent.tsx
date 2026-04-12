@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Code, Users, MessageSquare } from "lucide-react";
+import { Inbox, Bot, Handshake } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
 export default function WhyDifferent() {
@@ -42,7 +42,7 @@ export default function WhyDifferent() {
               className="flex flex-col items-center p-6"
             >
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <Code className="h-7 w-7 text-primary" />
+                <Inbox className="h-7 w-7 text-primary" />
               </div>
               <span className="font-semibold text-dark">{t('technicalTeam')}</span>
               <span className="text-sm text-gray-500">{t('everyoneCodes')}</span>
@@ -56,7 +56,7 @@ export default function WhyDifferent() {
               className="flex flex-col items-center p-6"
             >
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <MessageSquare className="h-7 w-7 text-primary" />
+                <Bot className="h-7 w-7 text-primary" />
               </div>
               <span className="font-semibold text-dark">{t('directAccess')}</span>
               <span className="text-sm text-gray-500">
@@ -72,7 +72,7 @@ export default function WhyDifferent() {
               className="flex flex-col items-center p-6"
             >
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <Users className="h-7 w-7 text-primary" />
+                <Handshake className="h-7 w-7 text-primary" />
               </div>
               <span className="font-semibold text-dark">{t('noMiddlemen')}</span>
               <span className="text-sm text-gray-500">

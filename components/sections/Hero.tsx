@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Shield } from "lucide-react";
 import { useTranslations } from 'next-intl';
-import Image from "next/image";
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -57,12 +56,14 @@ export default function Hero() {
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
                 {t('integrated')}
               </p>
+              {/* 
               <p className="text-base md:text-lg text-gray-500 leading-relaxed">
                 {t('clientsIntro')}
               </p>
+              */}
             </div>
 
-            {/* Client Logos */}
+            {/* Client Logos - Hidden as requested
             <div className="mb-16 md:my-16 w-full max-w-5xl mx-auto overflow-hidden">
               <div className="flex items-center justify-center gap-6 md:gap-10 flex-wrap">
                 <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
@@ -79,11 +80,12 @@ export default function Hero() {
                 <img src="/clients-logos/sertronic-logo.png" alt="Sertronic" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
               </div>
             </div>
+            */}
 
             {/* CTA */}
             <div className="flex justify-center items-center">
               <a
-                href="https://meetings.hubspot.com/amadero"
+                href="https://cal.com/kairos-ai/discovery-call"
                 className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2"
               >
                 {t('cta')}

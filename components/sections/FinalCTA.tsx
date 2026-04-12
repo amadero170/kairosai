@@ -31,7 +31,7 @@ export default function FinalCTA() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://meetings.hubspot.com/amadero"
+              href="https://cal.com/kairos-ai/discovery-call"
               className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center gap-2 w-full sm:w-auto justify-center"
             >
               {t('cta')}

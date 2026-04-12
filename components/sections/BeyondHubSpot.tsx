@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { MessageSquare, Workflow, LayoutDashboard, Package, ArrowRight, GitMerge } from "lucide-react";
+import { MessageSquare, Languages, BarChart3, Star, ArrowRight, Inbox } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
 export default function BeyondHubSpot() {
@@ -10,7 +10,7 @@ export default function BeyondHubSpot() {
 
   const automationServices = [
     {
-      icon: GitMerge,
+      icon: Inbox,
       text: t('services.crm'),
     },
     {
@@ -18,15 +18,15 @@ export default function BeyondHubSpot() {
       text: t('services.ai'),
     },
     {
-      icon: Workflow,
+      icon: Languages,
       text: t('services.workflow'),
     },
     {
-      icon: LayoutDashboard,
+      icon: BarChart3,
       text: t('services.dashboards'),
     },
     {
-      icon: Package,
+      icon: Star,
       text: t('services.inventory'),
     },
   ];
@@ -80,7 +80,7 @@ export default function BeyondHubSpot() {
           className="text-center"
         >
           <a
-            href="https://meetings.hubspot.com/amadero"
+            href="https://cal.com/kairos-ai/discovery-call"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg font-semibold transition-colors"
           >
             {t('cta')}
