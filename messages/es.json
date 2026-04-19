@@ -19,7 +19,7 @@
     "noMiddlemen": "Onboarding Completo",
     "zeroErrors": "Nosotros configuramos todo por ti"
   },
-  "BeyondHubSpot": {
+  "Features": {
     "title": "Lo Que",
     "titleHighlight": "Incluye",
     "subtitle": "Todo lo que tu hotel necesita para comunicarse mejor con sus huéspedes",
@@ -153,7 +153,7 @@
   "Footer": {
     "description": "Plataforma de comunicación omnicanal para hoteles. Un inbox para WhatsApp, Instagram, Messenger y más — potenciado por IA.",
     "servicesTitle": "Soluciones",
-    "hubspotImplementation": "Inbox Omnicanal",
+    "omnichannelInbox": "Inbox Omnicanal",
     "dataMigration": "Concierge IA",
     "customIntegrations": "Integración de Canales",
     "businessAutomation": "Automatización para Huéspedes",

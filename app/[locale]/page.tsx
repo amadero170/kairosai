@@ -1,7 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import WhyDifferent from "@/components/sections/WhyDifferent";
 import SpeedToLead from "@/components/sections/SpeedToLead";
-import BeyondHubSpot from "@/components/sections/BeyondHubSpot";
+import Features from "@/components/sections/Features";
 import HowWeWork from "@/components/sections/HowWeWork";
 import FAQ from "@/components/sections/FAQ";
 import FinalCTA from "@/components/sections/FinalCTA";
@@ -14,7 +14,7 @@ export default function HomePage() {
         <Hero />
         <WhyDifferent />
         <SpeedToLead />
-        <BeyondHubSpot />
+        <Features />
         <HowWeWork />
         <FAQ />
         <FinalCTA />

@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kairos AI - HubSpot Implementation & Business Automation",
+  title: "Kairos AI - Omnichannel Guest Communications",
   description:
-    "Technical HubSpot implementation by developers who've done 20+ enterprise migrations. Also: custom automation, AI agents, and workflow integration.",
+    "Unify your guest messaging across WhatsApp, Instagram, Messenger, and more with our AI-powered omnichannel inbox.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",

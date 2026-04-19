@@ -33,7 +33,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <span className="text-gray-400">
-                  {t('hubspotImplementation')}
+                  {t('omnichannelInbox')}
                 </span>
               </li>
               <li>

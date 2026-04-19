@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 import { X, Check } from "lucide-react";
 
 const traditionalAgencies = [
-  "3 months of 'strategy discovery'",
-  "Buyer persona workshops you've already done",
-  "Project managers who translate (poorly) between you and developers",
-  "$15K/month retainers with unclear deliverables",
+  "Information silos (WhatsApp on one phone, Instagram on another)",
+  "Unanswered or lost messages during shift changes",
+  "Dependence on a single person to answer guest inquiries",
+  "Frustrated guests waiting for answers overnight or on weekends",
 ];
 
 const whatYouNeed = [
-  "Clean migration from your current system",
-  "Custom integrations that actually work",
-  "Workflows that match YOUR process",
-  "Direct communication with the developers doing the work",
+  "One inbox for WhatsApp, Instagram, Messenger, email, and more",
+  "Instant responses powered by AI 24/7 in multiple languages",
+  "Automated workflows that match your hospitality process",
+  "A connected team that never misses a single guest message",
 ];
 
 export default function ProblemSection() {
@@ -30,8 +30,8 @@ export default function ProblemSection() {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-dark mb-4">
-            Most HubSpot Agencies Sell You What They Want,{" "}
-            <span className="text-primary">Not What You Need</span>
+            Managing guest messages on disconnected tools is chaos.{" "}
+            <span className="text-primary">We simplify it.</span>
           </h2>
         </motion.div>
 
@@ -45,7 +45,7 @@ export default function ProblemSection() {
             className="bg-white rounded-xl p-6 md:p-8 border border-gray-200"
           >
             <h3 className="text-xl md:text-2xl font-bold text-dark mb-6">
-              Traditional HubSpot Agencies:
+              The Current Problem:
             </h3>
             <ul className="space-y-4">
               {traditionalAgencies.map((item, index) => (

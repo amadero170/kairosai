@@ -13,8 +13,8 @@ import {
 } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
-export default function HubSpotServices() {
-  const t = useTranslations('HubSpotServices');
+export default function Services() {
+  const t = useTranslations('Services');
 
   const services = [
     {

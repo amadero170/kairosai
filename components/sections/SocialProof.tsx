@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const stats = [
   {
     number: "20+",
-    text: "Enterprise HubSpot migrations completed",
+    text: "Omnichannel Integrations completed",
   },
   {
     number: "0",

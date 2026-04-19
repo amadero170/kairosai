@@ -19,7 +19,7 @@
     "noMiddlemen": "Full Onboarding",
     "zeroErrors": "We set everything up for you"
   },
-  "BeyondHubSpot": {
+  "Features": {
     "title": "What You",
     "titleHighlight": "Get",
     "subtitle": "Everything your hotel needs to communicate better with guests",
@@ -153,7 +153,7 @@
   "Footer": {
     "description": "Omnichannel guest communication platform for hotels. One inbox for WhatsApp, Instagram, Messenger, and more — powered by AI.",
     "servicesTitle": "Solutions",
-    "hubspotImplementation": "Omnichannel Inbox",
+    "omnichannelInbox": "Omnichannel Inbox",
     "dataMigration": "AI Concierge",
     "customIntegrations": "Channel Integration",
     "businessAutomation": "Guest Automation",

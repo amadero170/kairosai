@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { MessageSquare, Languages, BarChart3, Star, ArrowRight, Inbox } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
-export default function BeyondHubSpot() {
-  const t = useTranslations('BeyondHubSpot');
+export default function Features() {
+  const t = useTranslations('Features');
 
   const automationServices = [
     {
