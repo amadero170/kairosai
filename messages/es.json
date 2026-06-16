@@ -140,15 +140,7 @@
         "description": "Responder en segundos proyecta profesionalismo y seriedad. Los clientes perciben la velocidad como un indicador de calidad del servicio."
       }
     },
-    "calculator": {
-      "title": "¿Cuánto Dinero Estás Perdiendo?",
-      "description": "Descubre el impacto real de no responder a tiempo a tus leads mensuales.",
-      "leadsLabel": "Leads al mes",
-      "bookingLabel": "Valor promedio del ticket (MXN)",
-      "responseLabel": "Tasa de respuesta inmediata (%)",
-      "resultLabel": "Ingresos potenciales recuperables al mes",
-      "cta": "Deja de perder leads hoy"
-    }
+    "cta": "Agendar Llamada"
   },
   "Footer": {
     "description": "Operación de leads unificada para pymes. Un solo inbox para todos tus canales digitales, sincronización con tu CRM y chatbot IA 24/7.",

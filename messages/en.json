@@ -140,15 +140,7 @@
         "description": "Responding in seconds projects professionalism and credibility. Clients interpret speed as a signal of service quality."
       }
     },
-    "calculator": {
-      "title": "How Much Revenue Are You Losing?",
-      "description": "Discover the real impact of not responding on time to your monthly leads.",
-      "leadsLabel": "Monthly Leads",
-      "bookingLabel": "Average Deal Value (USD)",
-      "responseLabel": "Immediate Response Rate (%)",
-      "resultLabel": "Potential Monthly Recoverable Revenue",
-      "cta": "Stop losing leads today"
-    }
+    "cta": "Book a Discovery Call"
   },
   "Footer": {
     "description": "Unified lead operations for SMBs. One inbox for every digital channel, CRM sync, and a 24/7 AI chatbot.",
