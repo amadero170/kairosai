@@ -2,14 +2,14 @@
 
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { 
-  Zap, 
-  Users, 
-  TrendingDown, 
-  Timer, 
-  MousePointer2, 
-  Ghost, 
-  Hotel, 
+import {
+  Zap,
+  Users,
+  TrendingDown,
+  Timer,
+  MousePointer2,
+  Ghost,
+  DollarSign,
   ShieldCheck,
   ArrowRight,
   Calculator
@@ -77,7 +77,7 @@ export default function SpeedToLead() {
       description: t('arguments.ghosting.description'),
     },
     {
-      icon: Hotel,
+      icon: DollarSign,
       title: t('arguments.inventory.title'),
       description: t('arguments.inventory.description'),
     },

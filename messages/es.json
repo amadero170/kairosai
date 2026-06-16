@@ -1,34 +1,34 @@
 {
   "Hero": {
-    "migrations": "Simplifica la comunicación con los huéspedes de tu hotel.",
-    "integrated": "Un solo inbox para WhatsApp, Instagram, Messenger, email y más — potenciado por IA.",
+    "migrations": "Infraestructura de speed-to-lead para pymes que no pueden darse el lujo de responder tarde.",
+    "integrated": "Un solo inbox para WhatsApp, email, Instagram y web — IA que responde en segundos, califica el lead y lo entrega a la persona correcta — automáticamente.",
     "clientsIntro": "Creado por un equipo que ha entregado soluciones empresariales para:",
-    "badge": "Partner de Comunicación Omnicanal",
+    "badge": "Implementación Done-for-You",
     "cta": "Agenda una Llamada"
   },
   "WhyDifferent": {
     "title": "Hecho para",
-    "titleHighlight": "Hotelería",
-    "paragraph1": "Tus huéspedes te escriben por WhatsApp, Instagram, Messenger, email y tu sitio web — muchas veces al mismo tiempo.",
-    "paragraph2": "Unificamos todos los canales en un solo inbox para que tu equipo de recepción nunca pierda un mensaje, con IA que responde FAQs, traduce idiomas y atiende fuera de horario automáticamente.",
-    "paragraph3": "Menos caos. Respuestas más rápidas. Huéspedes más felices.",
+    "titleHighlight": "PYMEs",
+    "paragraph1": "Tus leads llegan por WhatsApp, email, Instagram y tu sitio web — y para cuando alguien responde, ya se fueron con otro.",
+    "paragraph2": "Construimos Sistemas de Speed-to-Lead que unifican todos tus canales digitales en una sola bandeja compartida, usan IA para responder en segundos y entregan el lead calificado a la persona correcta — de forma automática.",
+    "paragraph3": "Cada lead recibe respuesta inmediata. Tu equipo solo atiende conversaciones calificadas. Nada se pierde.",
     "technicalTeam": "Un Solo Inbox",
     "everyoneCodes": "Todos los canales, una pantalla",
-    "directAccess": "Concierge IA",
-    "talkToBuilders": "Respuestas automáticas 24/7",
-    "noMiddlemen": "Onboarding Completo",
+    "directAccess": "IA que Actúa",
+    "talkToBuilders": "Responde, califica y entrega leads automáticamente",
+    "noMiddlemen": "Implementación Completa",
     "zeroErrors": "Nosotros configuramos todo por ti"
   },
   "Features": {
     "title": "Lo Que",
     "titleHighlight": "Incluye",
-    "subtitle": "Todo lo que tu hotel necesita para comunicarse mejor con sus huéspedes",
+    "subtitle": "Todo lo que tu negocio necesita para nunca volver a perder un lead por responder tarde",
     "services": {
-      "crm": "Inbox unificado para WhatsApp, Instagram, Messenger, email y chat web",
-      "ai": "Concierge IA que responde preguntas sobre amenidades, check-in, tours y room service",
-      "workflow": "Respuestas automáticas en múltiples idiomas — inglés, español y más",
-      "dashboards": "Analíticos en tiempo real: tiempos de respuesta, satisfacción del huésped, rendimiento de agentes",
-      "inventory": "Solicitudes automáticas de feedback post-estancia y generación de reseñas"
+      "crm": "Inbox unificado para WhatsApp, email, Instagram y chat web — todos en una sola pantalla",
+      "ai": "IA que responde en segundos en el primer contacto, califica el lead y lo entrega a la persona correcta",
+      "workflow": "Funciona 24/7 — atiende consultas fuera de horario para que nunca pierdas un lead de noche o en fin de semana",
+      "dashboards": "Analíticos en tiempo real: tiempos de respuesta, tasa de calificación y rendimiento del equipo",
+      "inventory": "Conexión con tu CRM actual, o configuración de uno nuevo si no tienes"
     },
     "cta": "Ver Demostración"
   },
@@ -39,22 +39,22 @@
       "discovery": {
         "title": "Llamada de Descubrimiento",
         "time": "30 min",
-        "description": "Conocemos tu hotel, los retos de comunicación con huéspedes y qué canales son más importantes para tu equipo."
+        "description": "Conocemos tu negocio, los canales por donde llegan tus leads y cómo trabaja tu equipo actualmente."
       },
       "proposal": {
         "title": "Configuración e Instalación",
         "time": "1 semana",
-        "description": "Conectamos tu WhatsApp, Instagram, Messenger y email a tu inbox unificado. No necesitas hacer nada técnico."
+        "description": "Conectamos tu WhatsApp, Instagram, email y chat web a tu inbox unificado. No necesitas hacer nada técnico."
       },
       "implementation": {
         "title": "Entrenamiento de IA",
         "time": "3-5 días",
-        "description": "Configuramos tu concierge IA con la información específica de tu hotel — amenidades, políticas, horarios, servicios y preguntas frecuentes."
+        "description": "Configuramos la IA con la información específica de tu negocio — servicios, preguntas frecuentes, horarios y flujos de calificación."
       },
       "training": {
         "title": "Capacitación del Equipo",
         "time": "1-2 sesiones",
-        "description": "Capacitamos a tu equipo de recepción y reservaciones. Es simple — si saben usar WhatsApp, pueden usar esto."
+        "description": "Capacitamos a tu equipo para gestionar el inbox. Es simple — si saben usar WhatsApp, pueden usar esto."
       },
       "support": {
         "title": "Soporte Continuo",
@@ -69,99 +69,99 @@
     "questions": {
       "q1": {
         "question": "¿Qué canales de mensajería soportan?",
-        "answer": "Soportamos WhatsApp Business, Instagram DMs, Facebook Messenger, email, Telegram, chat web (widget de chat en vivo en tu sitio web) y SMS. Todos los mensajes llegan a un solo inbox que tu equipo maneja desde una sola pantalla."
+        "answer": "Soportamos WhatsApp Business, Instagram DMs, Facebook Messenger, email, chat web (widget en tu sitio) y SMS. Todos los mensajes llegan a un solo inbox que tu equipo maneja desde una sola pantalla."
       },
       "q2": {
-        "question": "¿Cómo funciona el concierge IA?",
-        "answer": "Entrenamos un asistente IA con la información específica de tu hotel — amenidades, horarios de check-in/out, horarios de restaurante, servicios de spa, tours locales y políticas. Responde a preguntas de huéspedes automáticamente en múltiples idiomas, 24/7. Cuando una pregunta requiere atención humana, transfiere la conversación a tu equipo con todo el contexto."
+        "question": "¿Cómo funciona la IA?",
+        "answer": "La IA responde automáticamente en el primer contacto, hace preguntas para calificar el lead y lo entrega a la persona correcta de tu equipo cuando está listo. Fuera de horario, mantiene la conversación activa para que el lead no se enfríe."
       },
       "q3": {
-        "question": "¿Mis huéspedes saben que hablan con una IA?",
-        "answer": "La IA responde de forma natural y contextual. La mayoría de los huéspedes no notan la diferencia. Sin embargo, cuando un huésped pide hablar con un humano o la IA detecta una solicitud compleja, transfiere la conversación inmediatamente a tu equipo con el contexto completo."
+        "question": "¿Mis clientes saben que hablan con una IA?",
+        "answer": "La IA responde de forma natural y contextual. La mayoría de los clientes no notan la diferencia. Cuando un cliente pide hablar con una persona o la IA detecta una situación compleja, transfiere la conversación inmediatamente a tu equipo con todo el contexto."
       },
       "q4": {
         "question": "¿Cuánto tiempo toma la configuración?",
-        "answer": "La mayoría de los hoteles están completamente operativos en 2 semanas. Nosotros manejamos toda la configuración técnica — conectar tus canales, entrenar la IA y configurar tu inbox. Tu equipo solo necesita asistir a 1-2 sesiones cortas de capacitación."
+        "answer": "La mayoría de los negocios están completamente operativos en 2 semanas. Nosotros manejamos toda la configuración técnica — conectar tus canales, entrenar la IA y configurar tu inbox. Tu equipo solo necesita asistir a 1-2 sesiones cortas de capacitación."
       },
       "q5": {
-        "question": "¿Podemos usar esto para múltiples propiedades?",
-        "answer": "Sí. Cada propiedad tiene sus propios canales y configuración de IA, pero tu equipo de gestión puede supervisar todas las propiedades desde un solo dashboard. Perfecto para grupos y cadenas hoteleras."
+        "question": "¿Necesito tener un CRM para usar esto?",
+        "answer": "No. Nos conectamos a tu CRM actual si ya tienes uno. Si no tienes CRM, configuramos uno como parte de la implementación."
       },
       "q6": {
         "question": "¿Qué pasa si ya usamos WhatsApp Business en un teléfono?",
-        "answer": "Migramos tu número a la API de WhatsApp Business, lo que permite que múltiples agentes respondan desde el mismo número simultáneamente a través del inbox. Tus huéspedes siguen escribiendo al mismo número — nada cambia para ellos."
+        "answer": "Migramos tu número a la API de WhatsApp Business, lo que permite que múltiples agentes respondan desde el mismo número simultáneamente. Tus clientes siguen escribiendo al mismo número — nada cambia para ellos."
       }
     }
   },
   "FinalCTA": {
-    "title": "¿Listo para Simplificar la",
-    "titleHighlight": "Comunicación con tus Huéspedes?",
-    "description": "Agenda una llamada de descubrimiento de 30 minutos. Te mostraremos cómo hoteles como el tuyo están usando un solo inbox para responder más rápido, automatizar FAQs y mantener a sus huéspedes felices en cada canal.",
+    "title": "¿Listo para Dejar de",
+    "titleHighlight": "Perder Leads por Responder Tarde?",
+    "description": "Agenda una llamada de descubrimiento de 30 minutos. Te mostraremos cómo pymes como la tuya están usando sistemas de speed-to-lead para responder en segundos, calificar más leads y cerrar más ventas — en todos sus canales.",
     "cta": "Agendar Llamada",
     "emailPrefix": "O escríbenos a"
   },
   "SpeedToLead": {
     "title": "El Primero que Responde",
-    "titleHighlight": "Gana la Reserva",
-    "subtitle": "En zonas de alta competitividad como Puerto Vallarta o Bucerías, la velocidad no es una opción, es tu mayor ventaja competitiva.",
+    "titleHighlight": "Gana la Venta",
+    "subtitle": "El 78% de los clientes compran con el primero que les responde. La mayoría de los negocios pierden esa carrera porque sus mensajes están dispersos y nadie los atiende a tiempo.",
     "stats": {
       "fiveMin": {
         "title": "Regla de los 5 Minutos",
-        "description": "Las probabilidades de calificar a un lead son 100 veces mayores si se contacta en los primeros 5 minutos."
+        "description": "Las probabilidades de calificar un lead caen un 80% si no se responde en los primeros 5 minutos."
       },
       "firstResponder": {
         "title": "El Primero Gana",
-        "description": "El 78% de los clientes compran al proveedor que responde primero a su consulta."
+        "description": "El 78% de los clientes compran al negocio que responde primero a su consulta."
       },
       "interestDrop": {
         "title": "Caída de Interés",
         "description": "Las probabilidades de cerrar disminuyen 10 veces después de solo 10 minutos de espera."
       },
       "travelerExpectation": {
-        "title": "Expectativa Digital",
-        "description": "El 90% de los viajeros califican una respuesta \"inmediata\" como esencial antes de reservar."
+        "title": "Velocidad = Ventaja",
+        "description": "Las empresas que responden en menos de 1 hora tienen 7 veces más probabilidades de calificar el lead."
       }
     },
     "arguments": {
       "window": {
-        "title": "La Ventana de Deseo es Efímera",
-        "description": "Cuando un turista pregunta, está en \"modo compra\". Si tardas, ya vio tres opciones más en Google Maps. Kairos congela ese deseo al instante."
+        "title": "La Ventana de Compra es Efímera",
+        "description": "Cuando un cliente pregunta, está en \"modo compra\". Si tardas, ya vio tres opciones más. Kairos congela ese interés al instante."
       },
       "ghosting": {
-        "title": "Adiós al \"Ghosting\" Hotelero",
-        "description": "Evita que mensajes se queden en visto. Al centralizar WhatsApp, Messenger e Instagram, eliminas el error humano por completo."
+        "title": "Adiós al Ghosting de Leads",
+        "description": "Evita que mensajes se queden en visto. Al centralizar WhatsApp, Messenger, Instagram y email, eliminas el error humano por completo."
       },
       "inventory": {
-        "title": "El Inventario es Perecedero",
-        "description": "Una habitación no vendida hoy es dinero perdido para siempre. Speed to Lead es la herramienta más barata para aumentar ocupación."
+        "title": "Cada Lead que No Atiendes es Dinero Perdido",
+        "description": "Un lead no atendido hoy es un cliente que se fue con la competencia para siempre. Speed to Lead es la herramienta más eficaz para convertir más."
       },
       "authority": {
         "title": "Autoridad y Confianza",
-        "description": "En el sector de lujo, la velocidad se traduce en estatus. Responder en segundos proyecta un servicio premium que justifica tarifas más altas."
+        "description": "Responder en segundos proyecta profesionalismo y seriedad. Los clientes perciben la velocidad como un indicador de calidad del servicio."
       }
     },
     "calculator": {
       "title": "¿Cuánto Dinero Estás Perdiendo?",
-      "description": "Descubre el impacto real de no responder a tiempo a tus consultas mensuales.",
-      "leadsLabel": "Consultas al mes",
-      "bookingLabel": "Valor promedio de reserva (MXN)",
+      "description": "Descubre el impacto real de no responder a tiempo a tus leads mensuales.",
+      "leadsLabel": "Leads al mes",
+      "bookingLabel": "Valor promedio del ticket (MXN)",
       "responseLabel": "Tasa de respuesta inmediata (%)",
       "resultLabel": "Ingresos potenciales recuperables al mes",
-      "cta": "Deja de perder reservas hoy"
+      "cta": "Deja de perder leads hoy"
     }
   },
   "Footer": {
-    "description": "Plataforma de comunicación omnicanal para hoteles. Un inbox para WhatsApp, Instagram, Messenger y más — potenciado por IA.",
+    "description": "Infraestructura de speed-to-lead para pymes. Un solo inbox para WhatsApp, Instagram, email y más — potenciado por IA.",
     "servicesTitle": "Soluciones",
     "omnichannelInbox": "Inbox Omnicanal",
-    "dataMigration": "Concierge IA",
+    "dataMigration": "IA de Calificación",
     "customIntegrations": "Integración de Canales",
-    "businessAutomation": "Automatización para Huéspedes",
+    "businessAutomation": "Automatización de Leads",
     "contactTitle": "Contacto",
     "scheduleCall": "Agendar una Llamada",
     "copyright": "Todos los derechos reservados.",
     "legalName": "Operado por MARIANA VALDIVIA REYES",
-    "tagline": "Comunicación Omnicanal para Hoteles",
+    "tagline": "Sistemas de Speed-to-Lead para PYMEs",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
   }
