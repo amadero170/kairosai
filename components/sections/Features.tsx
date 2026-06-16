@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { MessageSquare, Languages, BarChart3, Star, ArrowRight, Inbox } from "lucide-react";
+import { MessageSquare, Tag, Database, BarChart3, ArrowRight, Inbox } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
 export default function Features() {
@@ -11,23 +11,23 @@ export default function Features() {
   const automationServices = [
     {
       icon: Inbox,
-      text: t('services.crm'),
+      text: t('services.inbox'),
+    },
+    {
+      icon: Tag,
+      text: t('services.organization'),
+    },
+    {
+      icon: Database,
+      text: t('services.crmSync'),
+    },
+    {
+      icon: BarChart3,
+      text: t('services.analytics'),
     },
     {
       icon: MessageSquare,
       text: t('services.ai'),
-    },
-    {
-      icon: Languages,
-      text: t('services.workflow'),
-    },
-    {
-      icon: BarChart3,
-      text: t('services.dashboards'),
-    },
-    {
-      icon: Star,
-      text: t('services.inventory'),
     },
   ];
 

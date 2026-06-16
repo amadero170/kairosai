@@ -1,7 +1,7 @@
 {
   "Hero": {
-    "migrations": "Infraestructura de speed-to-lead para pymes que no pueden darse el lujo de responder tarde.",
-    "integrated": "Un solo inbox para WhatsApp, email, Instagram y web — IA que responde en segundos, califica el lead y lo entrega a la persona correcta — automáticamente.",
+    "migrations": "Operación de leads unificada para tu negocio.",
+    "integrated": "Un solo inbox para todos tus canales digitales, sincronización automática con tu CRM y un chatbot IA personalizado para respuesta inmediata 24/7.",
     "clientsIntro": "Creado por un equipo que ha entregado soluciones empresariales para:",
     "badge": "Implementación Done-for-You",
     "cta": "Agenda una Llamada"
@@ -9,26 +9,26 @@
   "WhyDifferent": {
     "title": "Hecho para",
     "titleHighlight": "PYMEs",
-    "paragraph1": "Tus leads llegan por WhatsApp, email, Instagram y tu sitio web — y para cuando alguien responde, ya se fueron con otro.",
-    "paragraph2": "Construimos Sistemas de Speed-to-Lead que unifican todos tus canales digitales en una sola bandeja compartida, usan IA para responder en segundos y entregan el lead calificado a la persona correcta — de forma automática.",
-    "paragraph3": "Cada lead recibe respuesta inmediata. Tu equipo solo atiende conversaciones calificadas. Nada se pierde.",
+    "paragraph1": "Tus leads llegan por WhatsApp, Instagram, Facebook, email y tu sitio web — pero caen en distintas apps, gestionados por distintas personas, sin visibilidad compartida. El CRM se actualiza a mano, así que tu pipeline siempre está desactualizado.",
+    "paragraph2": "Construimos un sistema que conecta todos tus canales en una sola bandeja compartida, sincroniza tus leads al CRM automáticamente y muestra de dónde viene cada lead y en qué etapa queda — con un chatbot IA que responde en segundos, 24/7.",
+    "paragraph3": "Tu equipo gestiona todo desde un solo lugar. Tu pipeline siempre está al día. Ningún lead se pierde.",
     "technicalTeam": "Un Solo Inbox",
     "everyoneCodes": "Todos los canales, una pantalla",
-    "directAccess": "IA que Actúa",
-    "talkToBuilders": "Responde, califica y entrega leads automáticamente",
-    "noMiddlemen": "Implementación Completa",
-    "zeroErrors": "Nosotros configuramos todo por ti"
+    "directAccess": "Chatbot IA 24/7",
+    "talkToBuilders": "Responde y califica automáticamente",
+    "noMiddlemen": "CRM Siempre Sincronizado",
+    "zeroErrors": "Tu pipeline, siempre actualizado"
   },
   "Features": {
     "title": "Lo Que",
     "titleHighlight": "Incluye",
-    "subtitle": "Todo lo que tu negocio necesita para nunca volver a perder un lead por responder tarde",
+    "subtitle": "Todo lo que tu negocio necesita para organizar sus leads y nunca perder uno por falta de visibilidad o respuesta lenta",
     "services": {
-      "crm": "Inbox unificado para WhatsApp, email, Instagram y chat web — todos en una sola pantalla",
-      "ai": "IA que responde en segundos en el primer contacto, califica el lead y lo entrega a la persona correcta",
-      "workflow": "Funciona 24/7 — atiende consultas fuera de horario para que nunca pierdas un lead de noche o en fin de semana",
-      "dashboards": "Analíticos en tiempo real: tiempos de respuesta, tasa de calificación y rendimiento del equipo",
-      "inventory": "Conexión con tu CRM actual, o configuración de uno nuevo si no tienes"
+      "inbox": "Inbox unificado para WhatsApp, Instagram, Facebook, email y chat web — todos en una sola pantalla",
+      "organization": "Asigna conversaciones y etiqueta leads — con historial completo por contacto",
+      "crmSync": "Integración con tu CRM — los leads entran solos, sin actualizaciones manuales",
+      "analytics": "Analíticos de campaña y fuente — sabe de dónde viene cada lead y en qué etapa se pierde",
+      "ai": "Chatbot IA personalizado que responde en segundos, califica el lead y lo entrega a la persona correcta — 24/7"
     },
     "cta": "Ver Demostración"
   },
@@ -39,12 +39,12 @@
       "discovery": {
         "title": "Llamada de Descubrimiento",
         "time": "30 min",
-        "description": "Conocemos tu negocio, los canales por donde llegan tus leads y cómo trabaja tu equipo actualmente."
+        "description": "Conocemos tu negocio, los canales por donde llegan tus leads, tu CRM actual (si tienes) y cómo trabaja tu equipo hoy."
       },
       "proposal": {
         "title": "Configuración e Instalación",
         "time": "1 semana",
-        "description": "Conectamos tu WhatsApp, Instagram, email y chat web a tu inbox unificado. No necesitas hacer nada técnico."
+        "description": "Conectamos tu WhatsApp, Instagram, Facebook, email y chat web a tu inbox unificado, y lo sincronizamos con tu CRM. No necesitas hacer nada técnico."
       },
       "implementation": {
         "title": "Entrenamiento de IA",
@@ -84,8 +84,8 @@
         "answer": "La mayoría de los negocios están completamente operativos en 2 semanas. Nosotros manejamos toda la configuración técnica — conectar tus canales, entrenar la IA y configurar tu inbox. Tu equipo solo necesita asistir a 1-2 sesiones cortas de capacitación."
       },
       "q5": {
-        "question": "¿Necesito tener un CRM para usar esto?",
-        "answer": "No. Nos conectamos a tu CRM actual si ya tienes uno. Si no tienes CRM, configuramos uno como parte de la implementación."
+        "question": "¿Puedo ver de dónde vienen mis leads y en qué etapa están?",
+        "answer": "Sí. El sistema se conecta a tu CRM actual (o configuramos uno si no tienes) y sincroniza cada lead automáticamente. Tienes visibilidad de qué canal o campaña generó cada lead y en qué etapa del pipeline se encuentra, sin actualizar nada a mano."
       },
       "q6": {
         "question": "¿Qué pasa si ya usamos WhatsApp Business en un teléfono?",
@@ -94,16 +94,16 @@
     }
   },
   "FinalCTA": {
-    "title": "¿Listo para Dejar de",
-    "titleHighlight": "Perder Leads por Responder Tarde?",
-    "description": "Agenda una llamada de descubrimiento de 30 minutos. Te mostraremos cómo pymes como la tuya están usando sistemas de speed-to-lead para responder en segundos, calificar más leads y cerrar más ventas — en todos sus canales.",
+    "title": "¿Listo para Organizar tus Leads",
+    "titleHighlight": "y Responder a Tiempo?",
+    "description": "Agenda una llamada de descubrimiento de 30 minutos. Te mostraremos cómo pymes como la tuya están unificando sus canales, sincronizando su CRM automáticamente y usando IA para responder en segundos — sin perder visibilidad de un solo lead.",
     "cta": "Agendar Llamada",
     "emailPrefix": "O escríbenos a"
   },
   "SpeedToLead": {
     "title": "El Primero que Responde",
     "titleHighlight": "Gana la Venta",
-    "subtitle": "El 78% de los clientes compran con el primero que les responde. La mayoría de los negocios pierden esa carrera porque sus mensajes están dispersos y nadie los atiende a tiempo.",
+    "subtitle": "Una vez que tus canales están organizados y tu pipeline es visible, la velocidad de respuesta es lo que define quién gana al cliente. El 78% compra con el primero que responde.",
     "stats": {
       "fiveMin": {
         "title": "Regla de los 5 Minutos",
@@ -151,17 +151,17 @@
     }
   },
   "Footer": {
-    "description": "Infraestructura de speed-to-lead para pymes. Un solo inbox para WhatsApp, Instagram, email y más — potenciado por IA.",
+    "description": "Operación de leads unificada para pymes. Un solo inbox para todos tus canales digitales, sincronización con tu CRM y chatbot IA 24/7.",
     "servicesTitle": "Soluciones",
     "omnichannelInbox": "Inbox Omnicanal",
-    "dataMigration": "IA de Calificación",
-    "customIntegrations": "Integración de Canales",
-    "businessAutomation": "Automatización de Leads",
+    "dataMigration": "Integración y Sincronización CRM",
+    "customIntegrations": "Analíticos de Campaña y Fuente",
+    "businessAutomation": "Chatbot IA 24/7",
     "contactTitle": "Contacto",
     "scheduleCall": "Agendar una Llamada",
     "copyright": "Todos los derechos reservados.",
     "legalName": "Operado por MARIANA VALDIVIA REYES",
-    "tagline": "Sistemas de Speed-to-Lead para PYMEs",
+    "tagline": "Sistemas de Operación de Leads para PYMEs",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
   }

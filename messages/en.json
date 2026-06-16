@@ -1,7 +1,7 @@
 {
   "Hero": {
-    "migrations": "Speed-to-lead infrastructure for small and mid-size businesses that can't afford to respond slowly.",
-    "integrated": "One inbox for WhatsApp, email, Instagram, and web — AI that responds in seconds, qualifies the lead, and hands it off to the right person — automatically.",
+    "migrations": "Unified lead operations for your business.",
+    "integrated": "One inbox for every digital channel, automatic CRM sync, and a custom AI chatbot for 24/7 instant response.",
     "clientsIntro": "Built by a team that has delivered enterprise solutions for:",
     "badge": "Done-for-You Implementation",
     "cta": "Book a Discovery Call"
@@ -9,26 +9,26 @@
   "WhyDifferent": {
     "title": "Built for",
     "titleHighlight": "SMBs",
-    "paragraph1": "Your leads come in through WhatsApp, email, Instagram, and your website — and by the time someone responds, they've already moved on.",
-    "paragraph2": "We build Speed-to-Lead Systems that unify all your digital channels into one shared inbox, use AI to respond in seconds, and hand off qualified leads to the right person — automatically.",
-    "paragraph3": "Every lead gets an instant response. Your team only handles qualified conversations. Nothing falls through the cracks.",
+    "paragraph1": "Your leads come in through WhatsApp, Instagram, Facebook, email, and your website — but land in different apps, managed by different people with no shared visibility. Your CRM gets updated manually, so your pipeline is always outdated.",
+    "paragraph2": "We build a system that connects all your channels into one shared inbox, syncs your leads to your CRM automatically, and shows you where each lead comes from and where it drops off — with a custom AI chatbot that responds in seconds, 24/7.",
+    "paragraph3": "Your team manages everything from one place. Your pipeline is always up to date. No lead falls through the cracks.",
     "technicalTeam": "One Inbox",
     "everyoneCodes": "All channels, one screen",
-    "directAccess": "AI That Acts",
-    "talkToBuilders": "Responds, qualifies, and routes leads automatically",
-    "noMiddlemen": "Full Implementation",
-    "zeroErrors": "We set everything up for you"
+    "directAccess": "24/7 AI Chatbot",
+    "talkToBuilders": "Responds and qualifies automatically",
+    "noMiddlemen": "CRM Always in Sync",
+    "zeroErrors": "Your pipeline, always up to date"
   },
   "Features": {
     "title": "What You",
     "titleHighlight": "Get",
-    "subtitle": "Everything your business needs to never lose a lead to slow response times again",
+    "subtitle": "Everything your business needs to organize its leads and never lose one to poor visibility or slow response times",
     "services": {
-      "crm": "Unified inbox for WhatsApp, email, Instagram, and web chat — all in one screen",
-      "ai": "AI that responds in seconds on first contact, qualifies the lead, and hands it off to the right person",
-      "workflow": "Works 24/7 — handles after-hours inquiries so you never miss a lead that comes in at night or on weekends",
-      "dashboards": "Real-time analytics: response times, qualification rates, and team performance",
-      "inventory": "Connects to your existing CRM, or sets one up if you don't have it"
+      "inbox": "Unified inbox for WhatsApp, Instagram, Facebook, email, and web chat — all in one screen",
+      "organization": "Assign conversations and tag leads — with full history per contact",
+      "crmSync": "CRM integration — leads flow in automatically, no manual updates",
+      "analytics": "Campaign and source analytics — know where each lead comes from and where it drops off",
+      "ai": "Custom AI chatbot that responds in seconds, qualifies the lead, and hands it off to the right person — 24/7"
     },
     "cta": "See It in Action"
   },
@@ -39,12 +39,12 @@
       "discovery": {
         "title": "Discovery Call",
         "time": "30 min",
-        "description": "We learn about your business, the channels where your leads come in, and how your team currently handles them."
+        "description": "We learn about your business, the channels where your leads come in, your current CRM (if any), and how your team works today."
       },
       "proposal": {
         "title": "Setup & Configuration",
         "time": "1 week",
-        "description": "We connect your WhatsApp, Instagram, email, and web chat to your unified inbox. No technical work required on your end."
+        "description": "We connect your WhatsApp, Instagram, Facebook, email, and web chat to your unified inbox, and sync it with your CRM. No technical work required on your end."
       },
       "implementation": {
         "title": "AI Training",
@@ -84,8 +84,8 @@
         "answer": "Most businesses are fully live within 2 weeks. We handle all the technical configuration — connecting your channels, training the AI, and setting up your inbox. Your team only needs to attend 1-2 short training sessions."
       },
       "q5": {
-        "question": "Do I need a CRM to use this?",
-        "answer": "No. We connect to your existing CRM if you already have one. If you don't have a CRM, we set one up as part of the implementation."
+        "question": "Can I see where my leads come from and what stage they're at?",
+        "answer": "Yes. The system connects to your existing CRM (or we set one up if you don't have one) and syncs every lead automatically. You get visibility into which channel or campaign generated each lead and where it sits in the pipeline — no manual updates needed."
       },
       "q6": {
         "question": "What happens if we already use WhatsApp Business on a phone?",
@@ -94,16 +94,16 @@
     }
   },
   "FinalCTA": {
-    "title": "Ready to Stop",
-    "titleHighlight": "Losing Leads to Slow Responses?",
-    "description": "Book a 30-minute discovery call. We'll show you how businesses like yours are using speed-to-lead systems to respond in seconds, qualify more leads, and close more sales — across every channel.",
+    "title": "Ready to Organize Your Leads",
+    "titleHighlight": "and Respond on Time?",
+    "description": "Book a 30-minute discovery call. We'll show you how businesses like yours are unifying their channels, syncing their CRM automatically, and using AI to respond in seconds — without losing visibility on a single lead.",
     "cta": "Book a Discovery Call",
     "emailPrefix": "Or email us at"
   },
   "SpeedToLead": {
     "title": "The First Responder",
     "titleHighlight": "Wins the Sale",
-    "subtitle": "78% of customers buy from the first business that responds. Most businesses lose that race because their messages are scattered and no one responds fast enough.",
+    "subtitle": "Once your channels are organized and your pipeline is visible, response speed is what decides who wins the customer. 78% buy from the first business that responds.",
     "stats": {
       "fiveMin": {
         "title": "The 5-Minute Rule",
@@ -151,17 +151,17 @@
     }
   },
   "Footer": {
-    "description": "Speed-to-lead infrastructure for SMBs. One inbox for WhatsApp, Instagram, email, and more — powered by AI.",
+    "description": "Unified lead operations for SMBs. One inbox for every digital channel, CRM sync, and a 24/7 AI chatbot.",
     "servicesTitle": "Solutions",
     "omnichannelInbox": "Omnichannel Inbox",
-    "dataMigration": "AI Qualification",
-    "customIntegrations": "Channel Integration",
-    "businessAutomation": "Lead Automation",
+    "dataMigration": "CRM Integration & Sync",
+    "customIntegrations": "Campaign & Source Analytics",
+    "businessAutomation": "24/7 AI Chatbot",
     "contactTitle": "Contact",
     "scheduleCall": "Schedule a Call",
     "copyright": "All rights reserved.",
     "legalName": "Operated by MARIANA VALDIVIA REYES",
-    "tagline": "Speed-to-Lead Systems for SMBs",
+    "tagline": "Lead Operations Systems for SMBs",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
