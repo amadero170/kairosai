@@ -156,5 +156,111 @@
     "tagline": "Sistemas de Operación de Leads para PYMEs",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
+  },
+  "Nav": {
+    "growth": "Automatización de Crecimiento",
+    "operational": "Automatización de Operaciones",
+    "cta": "Agenda una Llamada"
+  },
+  "OAHero": {
+    "badge": "Automatización de Operaciones",
+    "title": "Que tu servicio se sienta tan bueno como",
+    "titleHighlight": "lo que prometes.",
+    "subtitle": "Automatizamos la operación para que a tu cliente nunca le pidas dos veces lo mismo, nada se caiga y todo salga bien a la primera.",
+    "cta": "Encontremos dónde se rompe tu servicio"
+  },
+  "OAProblem": {
+    "title": "Dónde se rompe",
+    "titleHighlight": "la calidad",
+    "subtitle": "No son solo fugas de tiempo. Son los momentos que tu cliente sí percibe — y recuerda.",
+    "clientLabel": "Tu cliente lo nota",
+    "costLabel": "Y a ti te cuesta",
+    "failures": {
+      "repeat": {
+        "title": "Pedir la misma información dos veces",
+        "client": "Tu cliente se repite y siente que no lo conoces.",
+        "cost": "Tu equipo recaptura datos que ya existían."
+      },
+      "dropped": {
+        "title": "Cosas que se caen entre personas o apps",
+        "client": "Se pierden solicitudes y nadie da seguimiento.",
+        "cost": "Persigues el estado entre herramientas para hallar lo perdido."
+      },
+      "manual": {
+        "title": "Errores por captura manual",
+        "client": "Cotizaciones, documentos y facturas con errores llegan a tu cliente.",
+        "cost": "Pierdes tiempo corrigiendo y disculpándote por errores."
+      },
+      "inconsistent": {
+        "title": "Tiempos de respuesta inconsistentes",
+        "client": "La experiencia cambia según quién esté de turno.",
+        "cost": "La calidad depende de personas, no de tu sistema."
+      }
+    }
+  },
+  "OAWhatWeAutomate": {
+    "title": "Lo que",
+    "titleHighlight": "automatizamos",
+    "subtitle": "Sistemas concretos que arreglan las fallas que tu cliente percibe — no solo las horas que pierdes.",
+    "resultLabel": "Para tu cliente",
+    "cta": "Encontremos dónde se rompe tu servicio",
+    "cards": {
+      "captureOnce": {
+        "title": "Captura los datos del cliente una sola vez y los distribuye a todos tus sistemas",
+        "result": "Nunca se los vuelves a pedir."
+      },
+      "extraction": {
+        "title": "Extracción de datos de documentos y facturas con IA",
+        "result": "Sin errores de captura manual."
+      },
+      "sync": {
+        "title": "Sincronización entre apps, CRM y hojas de cálculo",
+        "result": "Nada se cae entre sistemas."
+      },
+      "reports": {
+        "title": "Generación automática de reportes y seguimientos",
+        "result": "Respuesta consistente sin importar quién atienda."
+      }
+    }
+  },
+  "OAHowWeWork": {
+    "title": "Cómo",
+    "titleHighlight": "trabajamos",
+    "steps": {
+      "diagnosis": {
+        "title": "Diagnóstico",
+        "time": "30 min",
+        "description": "Mapeamos dónde se rompe tu servicio y dónde se fuga la calidad — antes de proponer nada."
+      },
+      "map": {
+        "title": "Mapa de procesos",
+        "time": "1 semana",
+        "description": "Documentamos tus flujos reales y ubicamos cada traspaso, hueco y paso manual."
+      },
+      "build": {
+        "title": "Automatización a la medida",
+        "time": "2-3 semanas",
+        "description": "Construimos automatizaciones a la medida de tu operación — captura de datos, sincronización, extracción y seguimientos."
+      },
+      "deploy": {
+        "title": "Despliegue",
+        "time": "1 semana",
+        "description": "Lo implementamos en tu operación real con tu equipo, sin interrumpir lo que ya funciona."
+      },
+      "support": {
+        "title": "Soporte",
+        "time": "Siempre",
+        "description": "Nos quedamos. Monitoreo, optimización y soporte prioritario mientras tu operación crece."
+      }
+    }
+  },
+  "OACredibility": {
+    "title": "La prueba de que",
+    "titleHighlight": "ejecutamos",
+    "description": "No solo asesoramos — operamos estos sistemas en producción. Nuestro stack: WhatsApp Business API, Chatwoot, n8n y LLMs de OpenAI, Anthropic y Gemini.",
+    "mirrorLabel": "Ya en producción",
+    "mirrorTitle": "Automatización de Crecimiento",
+    "mirrorText": "Nuestro sistema Speed-to-Lead — el que unifica tus canales y responde a tus leads en segundos — es una de las operaciones que ya corremos en producción.",
+    "mirrorCta": "Ver Automatización de Crecimiento"
   }
 }

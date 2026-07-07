@@ -156,5 +156,111 @@
     "tagline": "Lead Operations Systems for SMBs",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "Nav": {
+    "growth": "Growth Automation",
+    "operational": "Operational Automation",
+    "cta": "Book a Discovery Call"
+  },
+  "OAHero": {
+    "badge": "Operational Automation",
+    "title": "Make your service feel as good as",
+    "titleHighlight": "what you promise.",
+    "subtitle": "We automate your operations so you never ask a client for the same thing twice, nothing falls through the cracks, and everything comes out right the first time.",
+    "cta": "Find where your service breaks"
+  },
+  "OAProblem": {
+    "title": "Where your service quietly",
+    "titleHighlight": "breaks",
+    "subtitle": "These aren't just time leaks. They're the moments your client actually feels — and remembers.",
+    "clientLabel": "Your client notices",
+    "costLabel": "And it costs you",
+    "failures": {
+      "repeat": {
+        "title": "Asking for the same information twice",
+        "client": "Your client repeats themselves and feels like a stranger to you.",
+        "cost": "Your team re-enters data that was already captured."
+      },
+      "dropped": {
+        "title": "Things that fall between people or apps",
+        "client": "Requests get dropped and no one follows up.",
+        "cost": "You chase status across tools to find what was lost."
+      },
+      "manual": {
+        "title": "Errors from manual data entry",
+        "client": "Wrong quotes, documents and invoices reach your client.",
+        "cost": "You spend time correcting and apologizing for mistakes."
+      },
+      "inconsistent": {
+        "title": "Inconsistent response times",
+        "client": "The experience changes depending on who's on shift.",
+        "cost": "Quality depends on individuals, not on your system."
+      }
+    }
+  },
+  "OAWhatWeAutomate": {
+    "title": "What we",
+    "titleHighlight": "automate",
+    "subtitle": "Concrete systems that fix the failures your client feels — not just the hours you lose.",
+    "resultLabel": "For your client",
+    "cta": "Find where your service breaks",
+    "cards": {
+      "captureOnce": {
+        "title": "Capture client data once and distribute it to all your systems",
+        "result": "You never ask for it again."
+      },
+      "extraction": {
+        "title": "AI data extraction from documents and invoices",
+        "result": "No more manual-entry errors."
+      },
+      "sync": {
+        "title": "Sync across apps, CRM and spreadsheets",
+        "result": "Nothing falls between systems."
+      },
+      "reports": {
+        "title": "Automated reports and follow-ups",
+        "result": "Consistent response, no matter who's on."
+      }
+    }
+  },
+  "OAHowWeWork": {
+    "title": "How we",
+    "titleHighlight": "work",
+    "steps": {
+      "diagnosis": {
+        "title": "Diagnosis",
+        "time": "30 min",
+        "description": "We map where your service breaks and where quality leaks — before proposing anything."
+      },
+      "map": {
+        "title": "Process Map",
+        "time": "1 week",
+        "description": "We document your real workflows and pinpoint every handoff, gap and manual step."
+      },
+      "build": {
+        "title": "Custom Automation",
+        "time": "2-3 weeks",
+        "description": "We build automations tailored to your operation — data capture, syncing, extraction and follow-ups."
+      },
+      "deploy": {
+        "title": "Deployment",
+        "time": "1 week",
+        "description": "We roll it out into your real operation with your team, without disrupting what already works."
+      },
+      "support": {
+        "title": "Support",
+        "time": "Always",
+        "description": "We stay on. Monitoring, optimization and priority support as your operation grows."
+      }
+    }
+  },
+  "OACredibility": {
+    "title": "Proof that we",
+    "titleHighlight": "ship",
+    "description": "We don't just advise — we run these systems in production. Our stack: WhatsApp Business API, Chatwoot, n8n, and LLMs from OpenAI, Anthropic and Gemini.",
+    "mirrorLabel": "Already in production",
+    "mirrorTitle": "Growth Automation",
+    "mirrorText": "Our Speed-to-Lead system — the one that unifies your channels and responds to leads in seconds — is one of the operations we already run in production.",
+    "mirrorCta": "See Growth Automation"
   }
 }

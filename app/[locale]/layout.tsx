@@ -1,7 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Nav from '@/components/Nav';
 import { locales } from '@/i18n';
 import type { Locale } from '@/i18n';
 
@@ -25,7 +25,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
-      <LanguageSwitcher />
+      <Nav />
       {children}
     </NextIntlClientProvider>
   );

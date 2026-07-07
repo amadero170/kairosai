@@ -12,7 +12,7 @@ export default function TermsOfServicePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <div className="bg-dark py-8">
+      <div className="bg-dark pt-24 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-6">
             <ArrowLeft className="h-4 w-4" />
