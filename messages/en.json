@@ -223,6 +223,55 @@
       }
     }
   },
+  "OAExamples": {
+    "title": "The biggest opportunity is rarely",
+    "titleHighlight": "where you'd expect.",
+    "subtitle": "Most teams don't realize these can be automated. Find the ones that sound like your day-to-day.",
+    "promptTitle": "Don't see yours? There's always one hiding.",
+    "promptCta": "Find where your service breaks",
+    "industries": {
+      "finance": {
+        "name": "Finance",
+        "items": {
+          "a": "Invoice processing",
+          "b": "Payment reconciliation",
+          "c": "Bank matching"
+        }
+      },
+      "sales": {
+        "name": "Sales",
+        "items": {
+          "a": "CRM updates",
+          "b": "Quote generation",
+          "c": "Lead qualification"
+        }
+      },
+      "operations": {
+        "name": "Operations",
+        "items": {
+          "a": "Purchase orders",
+          "b": "Internal approvals",
+          "c": "Vendor onboarding"
+        }
+      },
+      "construction": {
+        "name": "Construction",
+        "items": {
+          "a": "RFIs",
+          "b": "Daily reports",
+          "c": "Permits"
+        }
+      },
+      "manufacturing": {
+        "name": "Manufacturing",
+        "items": {
+          "a": "Production reports",
+          "b": "Inventory updates",
+          "c": "Quality documentation"
+        }
+      }
+    }
+  },
   "OAHowWeWork": {
     "title": "How we",
     "titleHighlight": "work",
@@ -258,9 +307,9 @@
     "title": "Proof that we",
     "titleHighlight": "ship",
     "description": "We don't just advise — we run these systems in production. Our stack: WhatsApp Business API, Chatwoot, n8n, and LLMs from OpenAI, Anthropic and Gemini.",
-    "mirrorLabel": "Already in production",
+    "mirrorLabel": "Our other practice",
     "mirrorTitle": "Growth Automation",
-    "mirrorText": "Our Speed-to-Lead system — the one that unifies your channels and responds to leads in seconds — is one of the operations we already run in production.",
+    "mirrorText": "Speed-to-Lead — the system that unifies your channels and responds to leads in seconds — is our front-office practice: it automates how business comes in, from capture to conversion.",
     "mirrorCta": "See Growth Automation"
   }
 }

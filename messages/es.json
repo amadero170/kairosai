@@ -223,6 +223,55 @@
       }
     }
   },
+  "OAExamples": {
+    "title": "La oportunidad más grande casi nunca está",
+    "titleHighlight": "donde crees.",
+    "subtitle": "La mayoría no sabe que esto se puede automatizar. Encuentra lo que suena a tu día a día.",
+    "promptTitle": "¿No ves el tuyo? Siempre hay uno escondido.",
+    "promptCta": "Encontremos dónde se rompe tu servicio",
+    "industries": {
+      "finance": {
+        "name": "Finanzas",
+        "items": {
+          "a": "Procesamiento de facturas",
+          "b": "Conciliación de pagos",
+          "c": "Conciliación bancaria"
+        }
+      },
+      "sales": {
+        "name": "Ventas",
+        "items": {
+          "a": "Actualización del CRM",
+          "b": "Generación de cotizaciones",
+          "c": "Calificación de leads"
+        }
+      },
+      "operations": {
+        "name": "Operaciones",
+        "items": {
+          "a": "Órdenes de compra",
+          "b": "Aprobaciones internas",
+          "c": "Alta de proveedores"
+        }
+      },
+      "construction": {
+        "name": "Construcción",
+        "items": {
+          "a": "Solicitudes de información (RFIs)",
+          "b": "Reportes diarios",
+          "c": "Permisos y trámites"
+        }
+      },
+      "manufacturing": {
+        "name": "Manufactura",
+        "items": {
+          "a": "Reportes de producción",
+          "b": "Actualización de inventario",
+          "c": "Documentación de calidad"
+        }
+      }
+    }
+  },
   "OAHowWeWork": {
     "title": "Cómo",
     "titleHighlight": "trabajamos",
@@ -258,9 +307,9 @@
     "title": "La prueba de que",
     "titleHighlight": "ejecutamos",
     "description": "No solo asesoramos — operamos estos sistemas en producción. Nuestro stack: WhatsApp Business API, Chatwoot, n8n y LLMs de OpenAI, Anthropic y Gemini.",
-    "mirrorLabel": "Ya en producción",
+    "mirrorLabel": "Nuestra otra práctica",
     "mirrorTitle": "Automatización de Crecimiento",
-    "mirrorText": "Nuestro sistema Speed-to-Lead — el que unifica tus canales y responde a tus leads en segundos — es una de las operaciones que ya corremos en producción.",
+    "mirrorText": "Speed-to-Lead — el sistema que unifica tus canales y responde a tus leads en segundos — es nuestra práctica de front-office: automatiza cómo entra el negocio, desde la captación hasta la conversión.",
     "mirrorCta": "Ver Automatización de Crecimiento"
   }
 }
