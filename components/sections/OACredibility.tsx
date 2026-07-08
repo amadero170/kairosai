@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { defaultLocale } from "@/i18n";
 
@@ -12,15 +12,6 @@ export default function OACredibility() {
   const locale = useLocale();
 
   const homeHref = locale === defaultLocale ? "/" : `/${locale}`;
-
-  const stack = [
-    "WhatsApp Business API",
-    "Chatwoot",
-    "n8n",
-    "OpenAI",
-    "Anthropic",
-    "Gemini",
-  ];
 
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -39,25 +30,6 @@ export default function OACredibility() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             {t("description")}
           </p>
-        </motion.div>
-
-        {/* Stack chips */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="flex flex-wrap justify-center gap-3 mb-12"
-        >
-          {stack.map((tool) => (
-            <span
-              key={tool}
-              className="inline-flex items-center gap-1.5 bg-light-gray border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700"
-            >
-              <CheckCircle2 className="h-4 w-4 text-primary" />
-              {tool}
-            </span>
-          ))}
         </motion.div>
 
         {/* Mirror block → Growth Automation (home) */}

@@ -56,19 +56,17 @@ export default function Hero() {
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
                 {t('integrated')}
               </p>
-              {/* 
               <p className="text-base md:text-lg text-gray-500 leading-relaxed">
                 {t('clientsIntro')}
               </p>
-              */}
             </div>
 
-            {/* Client Logos - Hidden as requested
+            {/* Client Logos */}
             <div className="mb-16 md:my-16 w-full max-w-5xl mx-auto overflow-hidden">
               <div className="flex items-center justify-center gap-6 md:gap-10 flex-wrap">
-                <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 bg-gray-800 px-2 py-1 rounded" />
                 <img src="/clients-logos/haas.webp" alt="Haas" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
-                <img src="/clients-logos/air-new-zealand-logo.png" alt="Air New Zealand" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/air-new-zealand-logo.svg" alt="Air New Zealand" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/ahoy-club-logo.webp" alt="Ahoy Club" className="h-5 md:h-7 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/dbvisit_dark-logo.svg" alt="DBVisit" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/epassi-logo.svg" alt="Epassi" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
@@ -77,10 +75,11 @@ export default function Hero() {
                 <img src="/clients-logos/crew-cut-logo-1-300x77+(1).webp" alt="Crew Cut" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
                 <img src="/clients-logos/medianet-logo.webp" alt="MediaNet" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 bg-gray-800 px-2 py-1 rounded" />
                 <img src="/clients-logos/greenline-logo.jpg" alt="Greenline" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 rounded" />
-                <img src="/clients-logos/sertronic-logo.png" alt="Sertronic" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/sertronic-logo.png" alt="Sertronic" className="h-10 md:h-14 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/vive-solar-logo.png" alt="Vive Solar" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+                <img src="/clients-logos/outsiders-logo.svg" alt="Outsiders" className="h-4 md:h-5 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
               </div>
             </div>
-            */}
 
             {/* CTA */}
             <div className="flex justify-center items-center">

@@ -2,13 +2,13 @@
   "Hero": {
     "migrations": "Unified lead operations for your business.",
     "integrated": "One inbox for every digital channel, automatic CRM sync, and a custom AI chatbot for 24/7 instant response.",
-    "clientsIntro": "Built by a team that has delivered enterprise solutions for:",
+    "clientsIntro": "Our team has built software for:",
     "badge": "Done-for-You Implementation",
     "cta": "Book a Discovery Call"
   },
   "WhyDifferent": {
-    "title": "Built for",
-    "titleHighlight": "SMBs",
+    "title": "Your leads come from everywhere.",
+    "titleHighlight": "We unify them.",
     "paragraph1": "Your leads come in through WhatsApp, Instagram, Facebook, email, and your website — but land in different apps, managed by different people with no shared visibility. Your CRM gets updated manually, so your pipeline is always outdated.",
     "paragraph2": "We build a system that connects all your channels into one shared inbox, syncs your leads to your CRM automatically, and shows you where each lead comes from and where it drops off — with a custom AI chatbot that responds in seconds, 24/7.",
     "paragraph3": "Your team manages everything from one place. Your pipeline is always up to date. No lead falls through the cracks.",
@@ -143,7 +143,7 @@
     "cta": "Book a Discovery Call"
   },
   "Footer": {
-    "description": "Unified lead operations for SMBs. One inbox for every digital channel, CRM sync, and a 24/7 AI chatbot.",
+    "description": "For businesses that don't want to lose a single lead. One inbox for all your channels, CRM sync, and a 24/7 AI chatbot.",
     "servicesTitle": "Solutions",
     "omnichannelInbox": "Omnichannel Inbox",
     "dataMigration": "CRM Integration & Sync",
@@ -153,7 +153,7 @@
     "scheduleCall": "Schedule a Call",
     "copyright": "All rights reserved.",
     "legalName": "Operated by MARIANA VALDIVIA REYES",
-    "tagline": "Lead Operations Systems for SMBs",
+    "tagline": "Automation your customers can feel",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   },
@@ -306,7 +306,7 @@
   "OACredibility": {
     "title": "Proof that we",
     "titleHighlight": "ship",
-    "description": "We don't just advise — we run these systems in production. Our stack: WhatsApp Business API, Chatwoot, n8n, and LLMs from OpenAI, Anthropic and Gemini.",
+    "description": "We don't just advise — we build and run these systems in production, with real support behind them.",
     "mirrorLabel": "Our other practice",
     "mirrorTitle": "Growth Automation",
     "mirrorText": "Speed-to-Lead — the system that unifies your channels and responds to leads in seconds — is our front-office practice: it automates how business comes in, from capture to conversion.",
