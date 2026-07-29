@@ -167,6 +167,7 @@
     "title": "Make your service feel as good as",
     "titleHighlight": "what you promise.",
     "subtitle": "We automate your operations so you never ask a client for the same thing twice, nothing falls through the cracks, and everything comes out right the first time.",
+    "clientsIntro": "Our team has built software for:",
     "cta": "Find where your service breaks"
   },
   "OAProblem": {
@@ -224,9 +225,9 @@
     }
   },
   "OAExamples": {
-    "title": "The biggest opportunity is rarely",
-    "titleHighlight": "where you'd expect.",
-    "subtitle": "Most teams don't realize these can be automated. Find the ones that sound like your day-to-day.",
+    "title": "Most teams don't realize these can be automated.",
+    "titleHighlight": "Find the ones that sound like your day-to-day.",
+    "subtitle": "The biggest opportunity is rarely where you'd expect.",
     "promptTitle": "Don't see yours? There's always one hiding.",
     "promptCta": "Find where your service breaks",
     "industries": {

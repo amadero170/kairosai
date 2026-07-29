@@ -52,6 +52,29 @@ export default function OAHero() {
             {t("subtitle")}
           </p>
 
+          {/* Client Logos */}
+          <div className="mb-12 w-full max-w-5xl mx-auto">
+            <p className="text-sm text-gray-400 uppercase tracking-wider mb-6">
+              {t("clientsIntro")}
+            </p>
+            <div className="flex items-center justify-center gap-6 md:gap-10 flex-wrap">
+              <img src="/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png" alt="Mazda" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 bg-gray-800 px-2 py-1 rounded" />
+              <img src="/clients-logos/haas.webp" alt="Haas" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/air-new-zealand-logo.svg" alt="Air New Zealand" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/ahoy-club-logo.webp" alt="Ahoy Club" className="h-5 md:h-7 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/dbvisit_dark-logo.svg" alt="DBVisit" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/epassi-logo.svg" alt="Epassi" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/jacobsen-logo.svg" alt="Jacobsen" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/EnergySmart Icon_Lime.svg" alt="EnergySmart" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/crew-cut-logo-1-300x77+(1).webp" alt="Crew Cut" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/medianet-logo.webp" alt="MediaNet" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 bg-gray-800 px-2 py-1 rounded" />
+              <img src="/clients-logos/greenline-logo.jpg" alt="Greenline" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300 rounded" />
+              <img src="/clients-logos/sertronic-logo.png" alt="Sertronic" className="h-10 md:h-14 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/vive-solar-logo.png" alt="Vive Solar" className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+              <img src="/clients-logos/outsiders-logo.svg" alt="Outsiders" className="h-4 md:h-5 object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300" />
+            </div>
+          </div>
+
           <div className="flex justify-center items-center">
             <a
               href="https://cal.com/kairos-ai/discovery-call"

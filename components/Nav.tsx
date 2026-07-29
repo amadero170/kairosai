@@ -12,10 +12,10 @@ export default function Nav() {
   const pathname = usePathname();
   const locale = useLocale();
 
-  // Strip the locale prefix to get the logical path (e.g. "/operational-automation")
+  // Strip the locale prefix to get the logical path (e.g. "/growth-automation")
   const logicalPath =
     pathname.replace(/^\/(en|es)(?=\/|$)/, "") || "/";
-  const isOperational = logicalPath.startsWith("/operational-automation");
+  const isGrowth = logicalPath.startsWith("/growth-automation");
 
   // Build a locale-aware href (default locale has no prefix, "as-needed")
   const withLocale = (path: string) => {
@@ -45,17 +45,17 @@ export default function Nav() {
           <nav className="flex items-center gap-4 md:gap-8">
             <Link
               href={withLocale("/")}
-              className={navItem(!isOperational)}
-              aria-current={!isOperational ? "page" : undefined}
-            >
-              {t("growth")}
-            </Link>
-            <Link
-              href={withLocale("/operational-automation")}
-              className={navItem(isOperational)}
-              aria-current={isOperational ? "page" : undefined}
+              className={navItem(!isGrowth)}
+              aria-current={!isGrowth ? "page" : undefined}
             >
               {t("operational")}
+            </Link>
+            <Link
+              href={withLocale("/growth-automation")}
+              className={navItem(isGrowth)}
+              aria-current={isGrowth ? "page" : undefined}
+            >
+              {t("growth")}
             </Link>
           </nav>
 

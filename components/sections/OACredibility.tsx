@@ -11,7 +11,7 @@ export default function OACredibility() {
   const t = useTranslations("OACredibility");
   const locale = useLocale();
 
-  const homeHref = locale === defaultLocale ? "/" : `/${locale}`;
+  const growthHref = locale === defaultLocale ? "/growth-automation" : `/${locale}/growth-automation`;
 
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -54,7 +54,7 @@ export default function OACredibility() {
               </p>
             </div>
             <Link
-              href={homeHref}
+              href={growthHref}
               className="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-secondary-dark px-6 py-3 rounded-lg font-semibold transition-colors flex-shrink-0 whitespace-nowrap"
             >
               {t("mirrorCta")}

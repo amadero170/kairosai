@@ -167,6 +167,7 @@
     "title": "Que tu servicio se sienta tan bueno como",
     "titleHighlight": "lo que prometes.",
     "subtitle": "Automatizamos la operación para que a tu cliente nunca le pidas dos veces lo mismo, nada se caiga y todo salga bien a la primera.",
+    "clientsIntro": "Nuestro equipo ha construido software para:",
     "cta": "Encontremos dónde se rompe tu servicio"
   },
   "OAProblem": {
@@ -224,9 +225,9 @@
     }
   },
   "OAExamples": {
-    "title": "La oportunidad más grande casi nunca está",
-    "titleHighlight": "donde crees.",
-    "subtitle": "La mayoría no sabe que esto se puede automatizar. Encuentra lo que suena a tu día a día.",
+    "title": "La mayoría no sabe que esto se puede automatizar.",
+    "titleHighlight": "Encuentra lo que suena a tu día a día.",
+    "subtitle": "La oportunidad más grande casi nunca está donde crees.",
     "promptTitle": "¿No ves el tuyo? Siempre hay uno escondido.",
     "promptCta": "Encontremos dónde se rompe tu servicio",
     "industries": {

@@ -1,10 +1,10 @@
 import { locales } from "@/i18n";
-import Hero from "@/components/sections/Hero";
-import WhyDifferent from "@/components/sections/WhyDifferent";
-import SpeedToLead from "@/components/sections/SpeedToLead";
-import Features from "@/components/sections/Features";
-import HowWeWork from "@/components/sections/HowWeWork";
-import FAQ from "@/components/sections/FAQ";
+import OAHero from "@/components/sections/OAHero";
+import OAProblem from "@/components/sections/OAProblem";
+import OAWhatWeAutomate from "@/components/sections/OAWhatWeAutomate";
+import OAExamples from "@/components/sections/OAExamples";
+import OAHowWeWork from "@/components/sections/OAHowWeWork";
+import OACredibility from "@/components/sections/OACredibility";
 import FinalCTA from "@/components/sections/FinalCTA";
 import Footer from "@/components/sections/Footer";
 
@@ -16,12 +16,12 @@ export default function HomePage() {
   return (
     <>
       <main>
-        <Hero />
-        <WhyDifferent />
-        <SpeedToLead />
-        <Features />
-        <HowWeWork />
-        <FAQ />
+        <OAHero />
+        <OAExamples />
+        <OAProblem />
+        <OAWhatWeAutomate />
+        <OAHowWeWork />
+        <OACredibility />
         <FinalCTA />
       </main>
       <Footer />
