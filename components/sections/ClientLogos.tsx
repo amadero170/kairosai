@@ -11,6 +11,7 @@ const logos = [
   { src: "/clients-logos/dbvisit_dark-logo.svg", alt: "DBVisit", h: "h-6" },
   { src: "/clients-logos/vive-solar-logo.png", alt: "Vive Solar", h: "h-6" },
   { src: "/clients-logos/outsiders-logo.svg", alt: "Outsiders", h: "h-4" },
+  { src: "/clients-logos/little-closet-logo.png", alt: "Little Closet", h: "h-8" },
 ];
 
 function Group({ hidden = false }: { hidden?: boolean }) {
