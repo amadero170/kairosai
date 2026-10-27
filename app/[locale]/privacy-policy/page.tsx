@@ -31,13 +31,13 @@ export default function PrivacyPolicyPage() {
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-3xl md:text-4xl font-bold text-dark mb-2">Privacy Policy</h1>
-        <p className="text-gray-500 mb-10">Last updated: April 12, 2026</p>
+        <p className="text-gray-500 mb-10">Last updated: October 27, 2026</p>
 
         <div className="prose prose-gray max-w-none space-y-8">
           <section>
             <h2 className="text-xl font-semibold text-dark mb-3">1. Introduction</h2>
             <p className="text-gray-600 leading-relaxed">
-              Kairos Automation (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a trade name of Mariana Valdivia Reyes, operates the website kairosautomation.ai and the platform at app.kairosautomation.ai (collectively, the &quot;Service&quot;). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Service.
+              Kairos Automation (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a trade name of Mariana Valdivia Reyes, operates the website kairosautomation.ai, the platform at app.kairosautomation.ai, and custom business systems built and operated for its clients (collectively, the &quot;Service&quot;). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Service.
             </p>
           </section>
 
@@ -104,17 +104,49 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">5. Data Storage and Security</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">5. Use of Google User Data</h2>
+            <p className="text-gray-600 leading-relaxed">
+              Some parts of our Service let you sign in with your Google account. When you do, we receive only your name, email address, and profile picture (the <strong>openid</strong>, <strong>email</strong>, and <strong>profile</strong> scopes). Specifically:
+            </p>
+            <ul className="list-disc pl-6 text-gray-600 space-y-2 mt-3">
+              <li>We use this information solely to identify you, verify that your email address has been granted access by the account owner, and keep your session active.</li>
+              <li>We do not access your Gmail, Google Drive, Calendar, contacts, or any other Google data through your sign-in.</li>
+              <li>We do not sell Google user data, use it for advertising, or transfer it to third parties except as needed to operate the Service, comply with the law, or with your consent.</li>
+              <li>Our use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" className="underline" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+            </ul>
+            <p className="text-gray-600 leading-relaxed mt-3">
+              Where a client&apos;s system stores files in that client&apos;s own Google Drive, the system connects through a service account that the client adds to a specific shared drive. It does not access any individual user&apos;s Google account.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-dark mb-3">6. Custom Systems Built for Clients</h2>
+            <p className="text-gray-600 leading-relaxed">
+              We build and operate custom business systems (for example, budgeting, payments, and project control) for companies that hire us. In these systems:
+            </p>
+            <ul className="list-disc pl-6 text-gray-600 space-y-2 mt-3">
+              <li><strong>The client is the owner and controller of the data.</strong> Kairos Automation processes it only on the client&apos;s behalf and under its instructions, to build, operate, maintain, and support the system.</li>
+              <li>Only people whose email address has been registered by the client can access the system.</li>
+              <li>We do not use client data for any purpose other than providing the system, and we do not share it with other clients.</li>
+              <li>When the engagement ends, we return the data to the client in a standard format and then delete it from our systems, except where retention is required by law.</li>
+            </ul>
+            <p className="text-gray-600 leading-relaxed mt-3">
+              If you are a user of a system we operate for one of our clients, you may contact that client or us to exercise your rights over your data.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-dark mb-3">7. Data Storage and Security</h2>
             <p className="text-gray-600 leading-relaxed">
               Your data is stored on secure servers. We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include encryption in transit (TLS/SSL), access controls, and regular security reviews.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">6. Data Sharing and Disclosure</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">8. Data Sharing and Disclosure</h2>
             <p className="text-gray-600 leading-relaxed mb-3">We may share your information only in the following circumstances:</p>
             <ul className="list-disc pl-6 text-gray-600 space-y-1">
-              <li><strong>Service providers:</strong> Third-party services that help us operate our platform (hosting, AI processing), under strict data processing agreements.</li>
+              <li><strong>Service providers:</strong> Third-party services that help us operate our platform (hosting, databases, file storage, email delivery, AI processing), such as Vercel, Neon, and Google, under strict data processing agreements.</li>
               <li><strong>Legal requirements:</strong> When required by law, regulation, or legal process.</li>
               <li><strong>Business transfers:</strong> In connection with a merger, acquisition, or sale of assets.</li>
               <li><strong>With your consent:</strong> When you explicitly authorize sharing.</li>
@@ -122,14 +154,14 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">7. Data Retention</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">9. Data Retention</h2>
             <p className="text-gray-600 leading-relaxed">
               We retain your data for as long as your account is active or as needed to provide you with our Service. You may request deletion of your data at any time by contacting us. Upon account termination, we will delete or anonymize your data within 90 days, except where retention is required by law.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">8. Your Rights</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">10. Your Rights</h2>
             <p className="text-gray-600 leading-relaxed mb-3">You have the right to:</p>
             <ul className="list-disc pl-6 text-gray-600 space-y-1">
               <li>Access the personal data we hold about you</li>
@@ -145,21 +177,21 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">9. Data Deletion</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">11. Data Deletion</h2>
             <p className="text-gray-600 leading-relaxed">
-              You can request deletion of your data by emailing alberto@kairosautomation.ai. For data obtained through Meta platforms, you may also revoke our access at any time through your Facebook, Instagram, or WhatsApp settings. Upon receiving a deletion request, we will remove your data within 30 days.
+              You can request deletion of your data by emailing alberto@kairosautomation.ai. For data obtained through Meta platforms, you may also revoke our access at any time through your Facebook, Instagram, or WhatsApp settings. If you signed in with Google, you can revoke our access at any time at <a href="https://myaccount.google.com/permissions" className="underline" target="_blank" rel="noopener noreferrer">myaccount.google.com/permissions</a>. Upon receiving a deletion request, we will remove your data within 30 days.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">10. Changes to This Policy</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">12. Changes to This Policy</h2>
             <p className="text-gray-600 leading-relaxed">
               We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date. Your continued use of the Service after changes constitutes acceptance of the updated policy.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-dark mb-3">11. Contact Us</h2>
+            <h2 className="text-xl font-semibold text-dark mb-3">13. Contact Us</h2>
             <p className="text-gray-600 leading-relaxed">
               If you have questions about this Privacy Policy or our data practices, please contact us:
             </p>
