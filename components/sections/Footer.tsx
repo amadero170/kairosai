@@ -1,102 +1,69 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { Mail } from "lucide-react";
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from "next-intl";
+import { defaultLocale } from "@/i18n";
+import KairosLogo from "@/components/KairosLogo";
+import { CASES_PAGE } from "./flags";
 
 export default function Footer() {
-  const t = useTranslations('Footer');
+  const t = useTranslations("Footer");
+  const nav = useTranslations("Nav");
+  const locale = useLocale();
+
+  const withLocale = (path: string) => {
+    if (locale === defaultLocale) return path;
+    return `/${locale}${path === "/" ? "" : path}`;
+  };
+  const home = withLocale("/");
+
+  const colTitle = "font-display text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-2 mb-3.5";
+  const colLink = "block text-sm text-ink-2 hover:text-secondary transition-colors mb-2.5";
 
   return (
-    <footer className="bg-dark border-t border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
-          {/* Logo & Description */}
-          <div className="md:col-span-2">
-            <Image
-              src="/logo-kairos-blanco.png"
-              alt="Kairos"
-              width={360}
-              height={120}
-              className="h-36 w-auto mb-4"
-            />
-            <p className="text-gray-400 max-w-sm">
-              {t('description')}
+    <footer className="bg-canvas border-t border-line pt-14 pb-11">
+      <div className="max-w-[1240px] mx-auto px-[22px] md:px-10">
+        <div className="flex flex-wrap justify-between gap-8 items-start">
+          <div className="max-w-[300px]">
+            <Link href={home} aria-label="Kairos" className="inline-block py-5 pl-3">
+              <KairosLogo subtitle className="text-[20px]" />
+            </Link>
+            <p className="font-light text-[13.5px] text-muted mt-3 leading-relaxed">
+              {t("description")}
             </p>
           </div>
 
-          {/* Services */}
           <div>
-            <h4 className="font-semibold text-white mb-4">{t('servicesTitle')}</h4>
-            <ul className="space-y-2">
-              <li>
-                <span className="text-gray-400">
-                  {t('omnichannelInbox')}
-                </span>
-              </li>
-              <li>
-                <span className="text-gray-400">
-                  {t('dataMigration')}
-                </span>
-              </li>
-              <li>
-                <span className="text-gray-400">
-                  {t('customIntegrations')}
-                </span>
-              </li>
-              <li>
-                <span className="text-gray-400">
-                  {t('businessAutomation')}
-                </span>
-              </li>
-            </ul>
+            <h5 className={colTitle}>{t("exploreTitle")}</h5>
+            <Link href={`${home}#construimos`} className={colLink}>{nav("build")}</Link>
+            <Link href={`${home}#metodo`} className={colLink}>{nav("method")}</Link>
+            <Link href={CASES_PAGE ? withLocale("/casos") : `${home}#casos`} className={colLink}>{nav("cases")}</Link>
           </div>
 
-          {/* Contact */}
           <div>
-            <h4 className="font-semibold text-white mb-4">{t('contactTitle')}</h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="mailto:alberto@kairosautomation.ai"
-                  className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"
-                >
-                  <Mail className="h-4 w-4" />
-                  alberto@kairosautomation.ai
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://cal.com/kairos-ai/discovery-call"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
-                  {t('scheduleCall')}
-                </a>
-              </li>
-            </ul>
+            <h5 className={colTitle}>{t("startTitle")}</h5>
+            <a href="https://cal.com/kairos-ai/discovery-call" className={colLink}>{nav("cta")}</a>
+          </div>
 
+          <div>
+            <h5 className={colTitle}>{t("contactTitle")}</h5>
+            <span className="block font-display text-[12.5px] font-semibold text-ink mb-2">Alberto Madero</span>
+            <a href="mailto:alberto@kairosautomation.ai" className={colLink}>alberto@kairosautomation.ai</a>
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex flex-col items-center md:items-start gap-1">
-            <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Kairos Automation. {t('copyright')}
-            </p>
-            <p className="text-gray-600 text-xs">
-              {t('legalName')}
-            </p>
+        <div className="mt-12 pt-5 border-t border-line flex flex-col md:flex-row justify-between gap-3 text-[13px] text-muted-2">
+          <div className="flex flex-col gap-1">
+            <span>© {new Date().getFullYear()} Kairos Automation. {t("copyright")}</span>
+            <span className="text-xs">{t("legalName")}</span>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/privacy-policy" className="text-gray-500 text-sm hover:text-primary transition-colors">
-              {t('privacyPolicy')}
+            <Link href={withLocale("/privacy-policy")} className="hover:text-ink transition-colors">
+              {t("privacyPolicy")}
             </Link>
-            <span className="text-gray-700">|</span>
-            <Link href="/terms-of-service" className="text-gray-500 text-sm hover:text-primary transition-colors">
-              {t('termsOfService')}
+            <Link href={withLocale("/terms-of-service")} className="hover:text-ink transition-colors">
+              {t("termsOfService")}
             </Link>
           </div>
         </div>

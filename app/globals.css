@@ -2,3 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas;
+}
+
+@layer components {
+  /* Small uppercase label used for eyebrows, kickers and section tags */
+  .lbl {
+    @apply font-display text-[11.5px] font-semibold uppercase tracking-[0.2em] text-muted-2;
+  }
+
+  /* Section tag: orange dot + label */
+  .sec-tag {
+    @apply lbl flex items-center gap-3.5 mb-6;
+  }
+  /* Small ring, echoing the circle in the Kairos logo */
+  .sec-tag::before {
+    content: "";
+    @apply w-[9px] h-[9px] rounded-full border-[1.5px] border-secondary;
+  }
+
+  .sec-h {
+    @apply font-display font-semibold text-ink text-[clamp(34px,5vw,58px)] leading-[1.04] tracking-[-0.035em] max-w-[860px];
+  }
+
+  .sec-lead {
+    @apply font-light text-lg text-muted max-w-[580px] mt-5 leading-relaxed;
+  }
+
+  /* Italic serif accent painted with the brand gradient */
+  .accent-serif {
+    @apply font-serif italic font-semibold bg-brand-grad bg-clip-text text-transparent;
+    letter-spacing: 0;
+    padding: 0.04em 0.16em 0.1em 0.14em;
+    margin: 0 -0.16em 0 -0.14em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 font-display font-semibold text-[15px] px-[26px] py-[15px] rounded-full border border-transparent transition-all duration-200;
+  }
+  .btn .arr {
+    @apply transition-transform duration-200;
+  }
+  .btn:hover .arr {
+    transform: translateX(4px);
+  }
+  .btn-ink {
+    @apply bg-ink text-canvas hover:-translate-y-0.5;
+  }
+  .btn-line {
+    @apply bg-transparent text-ink border-line hover:border-ink;
+  }
+}
+
+/* Hero entrance: only moves, never hides, so the headline paints immediately */
+.rise {
+  animation: rise 0.8s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+@keyframes rise {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .rise {
+    animation: none;
+  }
+}

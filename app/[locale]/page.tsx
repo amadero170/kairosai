@@ -1,11 +1,12 @@
 import { locales } from "@/i18n";
-import OAHero from "@/components/sections/OAHero";
-import OAProblem from "@/components/sections/OAProblem";
-import OAWhatWeAutomate from "@/components/sections/OAWhatWeAutomate";
-import OAExamples from "@/components/sections/OAExamples";
-import OAHowWeWork from "@/components/sections/OAHowWeWork";
-import OACredibility from "@/components/sections/OACredibility";
-import FinalCTA from "@/components/sections/FinalCTA";
+import HomeHero from "@/components/sections/HomeHero";
+import HomeWhatWeBuild from "@/components/sections/HomeWhatWeBuild";
+import HomeMethod from "@/components/sections/HomeMethod";
+import HomeCases from "@/components/sections/HomeCases";
+import HomeFit from "@/components/sections/HomeFit";
+import HomeTeam from "@/components/sections/HomeTeam";
+import HomeFinalCTA from "@/components/sections/HomeFinalCTA";
+import { SHOW_TEAM } from "@/components/sections/flags";
 import Footer from "@/components/sections/Footer";
 
 export function generateStaticParams() {
@@ -15,14 +16,14 @@ export function generateStaticParams() {
 export default function HomePage() {
   return (
     <>
-      <main>
-        <OAHero />
-        <OAExamples />
-        <OAProblem />
-        <OAWhatWeAutomate />
-        <OAHowWeWork />
-        <OACredibility />
-        <FinalCTA />
+      <main className="bg-canvas">
+        <HomeHero />
+        <HomeWhatWeBuild />
+        <HomeMethod />
+        <HomeCases />
+        <HomeFit />
+        {SHOW_TEAM && <HomeTeam />}
+        <HomeFinalCTA />
       </main>
       <Footer />
     </>

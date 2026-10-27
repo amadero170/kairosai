@@ -9,6 +9,17 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+// Spanish metadata lives in the root layout; English pages override it here
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (locale !== 'en') return {};
+  return {
+    title: 'Kairos — Systems for operating businesses',
+    description:
+      'We understand how your business operates, find the highest-impact opportunities with you and build the system so your business runs on data.',
+  };
+}
+
 export default async function LocaleLayout({
   children,
   params,

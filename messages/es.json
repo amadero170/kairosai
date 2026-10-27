@@ -143,7 +143,7 @@
     "cta": "Agendar Llamada"
   },
   "Footer": {
-    "description": "Para negocios que no quieren perder un solo lead. Un solo inbox para todos tus canales, sincronización con tu CRM y chatbot IA 24/7.",
+    "description": "Entendemos cómo opera tu empresa y construimos el sistema que la prepara para lo que viene.",
     "servicesTitle": "Soluciones",
     "omnichannelInbox": "Inbox Omnicanal",
     "dataMigration": "Integración y Sincronización CRM",
@@ -155,12 +155,18 @@
     "legalName": "Operado por MARIANA VALDIVIA REYES",
     "tagline": "Automatización que se siente en tu servicio",
     "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio"
+    "termsOfService": "Términos de Servicio",
+    "exploreTitle": "Explora",
+    "startTitle": "Empieza"
   },
   "Nav": {
-    "growth": "Automatización de Crecimiento",
-    "operational": "Automatización de Operaciones",
-    "cta": "Agenda una Llamada"
+    "growth": "Atención de leads",
+    "operational": "Inicio",
+    "cta": "Agenda tu diagnóstico",
+    "build": "Qué construimos",
+    "method": "Cómo trabajamos",
+    "cases": "Casos",
+    "menu": "Abrir menú"
   },
   "OAHero": {
     "badge": "Automatización de Operaciones",
@@ -312,5 +318,356 @@
     "mirrorTitle": "Automatización de Crecimiento",
     "mirrorText": "Speed-to-Lead — el sistema que unifica tus canales y responde a tus leads en segundos — es nuestra práctica de front-office: automatiza cómo entra el negocio, desde la captación hasta la conversión.",
     "mirrorCta": "Ver Automatización de Crecimiento"
+  },
+  "Home": {
+    "Hero": {
+      "title": "Que tu empresa opere",
+      "titleHighlight": "con datos.",
+      "subtitle": "Entendemos cómo opera tu empresa y encontramos contigo las oportunidades de mayor impacto. Después diseñamos e implementamos el sistema que lo hace realidad, y usamos IA donde de verdad ahorra trabajo.",
+      "clientsIntro": "Hemos construido sistemas para:",
+      "cta": "Agenda tu diagnóstico",
+      "ctaSecondary": "Ver casos",
+      "eyebrow": "Sistemas para empresas en operación"
+    },
+    "Build": {
+      "title": "Lo que",
+      "titleHighlight": "construimos",
+      "subtitle": "Construimos lo que tu operación necesita: lo que más impacto te genera desde donde estás hoy, aprovechando lo que ya usas y con la menor fricción posible para tu equipo.",
+      "cards": {
+        "platform": {
+          "kicker": "Una sola fuente de verdad",
+          "title": "Plataforma de operación",
+          "description": "Tu CRM, tus dashboards y los portales para tus clientes en un solo sistema. Tu equipo trabaja ahí y tú ves los números en tiempo real.",
+          "includes": [
+            "CRM",
+            "Dashboards",
+            "Portales para clientes",
+            "Herramientas internas"
+          ]
+        },
+        "automation": {
+          "kicker": "Menos trabajo manual",
+          "title": "Automatización de procesos",
+          "description": "Lo que hoy se captura, se calcula o se le da seguimiento a mano, lo hace el sistema. Usamos IA donde de verdad ahorra trabajo.",
+          "includes": [
+            "Registros y seguimientos",
+            "Cálculos y conciliaciones",
+            "Análisis de escenarios"
+          ]
+        },
+        "speed": {
+          "kicker": "Respuesta inmediata",
+          "title": "Speed to Lead",
+          "description": "Todos tus canales en una sola bandeja, con respuesta inmediata, seguimiento automático y tu CRM siempre al día. Somos Tech Provider de Meta: conexión oficial con WhatsApp, Instagram y Messenger.",
+          "includes": [
+            "Bandeja unificada",
+            "Respuesta 24/7",
+            "Seguimiento automático",
+            "Sincronización con CRM"
+          ]
+        }
+      },
+      "tag": "Qué construimos",
+      "includesLabel": "Incluye",
+      "casesCta": "Ver casos"
+    },
+    "Method": {
+      "title": "Un método para decidir con datos:",
+      "titleHighlight": "MEDIR.",
+      "subtitle": "Cinco pasos con tiempos claros. Los dos primeros no tienen costo.",
+      "steps": {
+        "m": {
+          "letter": "M",
+          "title": "Mapear",
+          "description": "Una llamada para entender cómo opera tu empresa. En 2 días te entregamos un reporte con las oportunidades de mayor impacto.",
+          "time": "30 min + reporte en 2 días",
+          "payment": "Sin costo",
+          "kicker": "Paso 1"
+        },
+        "e": {
+          "letter": "E",
+          "title": "Elegir",
+          "description": "Decidimos juntos qué atacar primero. Recibes una propuesta de alcance cerrado: qué se entrega, cuándo y cuánto cuesta.",
+          "time": "Propuesta de alcance cerrado",
+          "payment": "Sin costo",
+          "kicker": "Paso 2"
+        },
+        "d": {
+          "letter": "D",
+          "title": "Diseñar",
+          "description": "Diseñamos el proceso nuevo y el sistema que lo pone en marcha, antes de escribir código.",
+          "time": "Proceso + sistema",
+          "kicker": "Paso 3"
+        },
+        "i": {
+          "letter": "I",
+          "title": "Implementar",
+          "description": "Construimos, migramos tus datos y capacitamos a tu equipo.",
+          "time": "Primera versión en uso en ~6 semanas",
+          "kicker": "Paso 4"
+        },
+        "r": {
+          "letter": "R",
+          "title": "Revisar",
+          "description": "Medimos si funcionó y ajustamos.",
+          "time": "Cada mes",
+          "kicker": "Paso 5"
+        }
+      },
+      "closing": "Lo que no se mide, no se controla. Por eso empezamos y terminamos midiendo.",
+      "tag": "Cómo trabajamos",
+      "timeLabel": "Tiempo"
+    },
+    "Cases": {
+      "title": "Lo que ya está",
+      "subtitle": "Resultados medidos, no promesas.",
+      "resultLabel": "Resultado",
+      "items": [
+        {
+          "title": "Dashboard de comisiones en tiempo real",
+          "industry": "Energía solar",
+          "description": "Comisiones, depósitos y reportes se hacían a mano. Construimos un dashboard en tiempo real con conciliación automática.",
+          "result": "Comisiones de 12 horas a 1 minuto."
+        },
+        {
+          "title": "Plataforma comercial para desarrollos inmobiliarios",
+          "industry": "Inmobiliario",
+          "description": "Una plataforma que conecta desarrollos, brokers y leads en un solo sistema.",
+          "result": "25+ desarrollos, 12 brokers y 500+ leads al mes."
+        },
+        {
+          "title": "Reintegra.ai: plataforma para la devolución de IVA",
+          "industry": "Carbonato de calcio",
+          "description": "La IA lee la carta del SAT y convierte cada punto en una tarea con responsable. Las cédulas se arman solas cruzando facturas, complementos de pago y estados de cuenta, y el expediente sale en el formato que pide el SAT.",
+          "result": "60% menos tiempo para preparar y enviar el requerimiento del SAT."
+        },
+        {
+          "title": "Registro y seguimiento de capacitaciones",
+          "industry": "Materiales de construcción",
+          "description": "El registro y seguimiento de participantes en sus capacitaciones a distribuidores era muy manual. Ahora se hace solo.",
+          "result": "$70,000 MXN al año ahorrados."
+        },
+        {
+          "title": "Speed to Lead: asistente de ventas con IA en WhatsApp",
+          "industry": "Servicios legales",
+          "description": "Consulta en automático las bases de datos de multas, guía la venta, valida el comprobante de pago y da seguimiento a quien no compró.",
+          "result": "Ventas 24/7 sin personal adicional."
+        },
+        {
+          "title": "Consolidación de automatizaciones de ventas",
+          "industry": "Servicios de ventas",
+          "description": "Su operación de ventas dependía de cientos de escenarios de automatización. Los rediseñamos y consolidamos en unos cuantos, más fáciles de mantener.",
+          "result": "De 300 escenarios a 7."
+        }
+      ],
+      "rvo": {
+        "industry": "Diseño y construcción",
+        "status": "En implementación",
+        "description": "Presupuesto, control de obra, facturación, flujo mensual y portal del cliente en un solo sistema, en 3 módulos.",
+        "title": "Sistema de gestión de obra"
+      },
+      "tag": "Casos",
+      "titleHighlight": "funcionando.",
+      "allCta": "Ver todos los casos",
+      "more": [
+        {
+          "title": "Información de casos en un solo lugar",
+          "industry": "Firma legal · Estados Unidos",
+          "description": "Su información estaba repartida entre su sistema de casos y otros reportes. La reunimos en un solo lugar para consultarla y darle seguimiento.",
+          "result": "~1,250 casos sincronizados."
+        },
+        {
+          "title": "Procesamiento automático de hojas de horas",
+          "industry": "Personal médico · Estados Unidos",
+          "description": "Cada hoja de horas se revisaba y calculaba a mano para nómina y facturación. Ahora el sistema la lee, calcula y valida.",
+          "result": "De 20 a 3 minutos por hoja."
+        },
+        {
+          "title": "Inventario y plan de compras con pronóstico",
+          "industry": "Manufactura",
+          "description": "Inventario de materia prima y producto terminado en un solo lugar, con un pronóstico que calcula cuándo comprar según el tiempo de entrega de cada insumo.",
+          "result": "Compras planeadas antes de quedarse sin material."
+        },
+        {
+          "title": "Dashboard diario de ventas",
+          "industry": "Comercio minorista",
+          "description": "Las ventas llegaban por correo sin procesar. Ahora se cargan solas cada día y se comparan contra el año anterior.",
+          "result": "33,000 registros al día procesados solos."
+        },
+        {
+          "title": "Concierge con IA en todos los canales",
+          "industry": "Hotelería",
+          "description": "Atiende huéspedes en web, WhatsApp, Facebook e Instagram, genera links de reserva directa y pasa la conversación a una persona cuando hace falta.",
+          "result": "Atención 24/7 en 4 canales."
+        },
+        {
+          "title": "Pedidos por WhatsApp con pago validado",
+          "industry": "Restaurante",
+          "description": "Los pedidos llegan estructurados, el pago se valida en el mismo flujo y la orden confirmada pasa directo a cocina.",
+          "result": "Cero pedidos sin pago confirmado."
+        },
+        {
+          "title": "Portal de entrenadores y clientes con cobros automáticos",
+          "industry": "Entrenamiento personal",
+          "description": "Registro de sesiones, cobro a clientes y pago a entrenadores en un solo portal.",
+          "result": "Cobros y pagos sin trabajo manual."
+        }
+      ]
+    },
+    "Fit": {
+      "title": "¿Somos",
+      "titleHighlight": "para ti?",
+      "yesTitle": "Sí, si…",
+      "noTitle": "No, si…",
+      "yes": [
+        "Tienes una empresa establecida, con equipo y operación en marcha, y quieres cambiar cómo se trabaja, no sólo sumar otra herramienta.",
+        "Tu empresa está certificada o en camino a certificarse y necesitas procesos documentados y evidencia de que se cumplen.",
+        "Quieres tomar decisiones con datos."
+      ],
+      "no": [
+        "Tu idea todavía no está operando.",
+        "Es un proyecto personal.",
+        "Sólo buscas \"un bot\"."
+      ],
+      "tag": "Para quién es"
+    },
+    "Team": {
+      "title": "Un equipo que entiende el negocio",
+      "titleHighlight": "antes de escribir código.",
+      "founderName": "Alberto Madero",
+      "founderRole": "Fundador",
+      "founderText": "Lleva la relación contigo y el diagnóstico: entiende cómo opera tu empresa y qué conviene construir primero.",
+      "teamName": "El equipo",
+      "teamRole": "Diseño, desarrollo e implementación",
+      "teamText": "Diseña, construye e implementa cada sistema, y le da soporte una vez que está en uso.",
+      "closing": "Tratas con una persona. Te respalda un equipo.",
+      "tag": "Quién está detrás",
+      "founderInitials": "AM"
+    },
+    "FinalCTA": {
+      "title": "Encontremos qué conviene",
+      "titleHighlight": "construir primero.",
+      "description": "30 minutos, sin costo. Te llevas las oportunidades de mayor impacto para tu operación.",
+      "cta": "Agenda tu diagnóstico",
+      "emailPrefix": "O escríbenos a"
+    }
+  },
+  "CasesPage": {
+    "tag": "Casos",
+    "title": "Lo que hemos",
+    "titleHighlight": "construido.",
+    "subtitle": "Sistemas en uso en empresas reales, agrupados por lo que resuelven.",
+    "resultLabel": "Resultado",
+    "groups": {
+      "platform": {
+        "kicker": "Una sola fuente de verdad",
+        "title": "Plataforma de operación",
+        "items": [
+          {
+            "title": "Plataforma comercial para desarrollos inmobiliarios",
+            "industry": "Inmobiliario",
+            "description": "Una plataforma que conecta desarrollos, brokers y leads en un solo sistema.",
+            "result": "25+ desarrollos, 12 brokers y 500+ leads al mes."
+          },
+          {
+            "title": "Dashboard de comisiones en tiempo real",
+            "industry": "Energía solar",
+            "description": "Comisiones, depósitos y reportes se hacían a mano. Construimos un dashboard en tiempo real con conciliación automática.",
+            "result": "Comisiones de 12 horas a 1 minuto."
+          },
+          {
+            "title": "Reintegra.ai: plataforma para la devolución de IVA",
+            "industry": "Carbonato de calcio",
+            "description": "La IA lee la carta del SAT y convierte cada punto en una tarea con responsable. Las cédulas se arman solas cruzando facturas, complementos de pago y estados de cuenta, y el expediente sale en el formato que pide el SAT.",
+            "result": "60% menos tiempo para preparar y enviar el requerimiento del SAT."
+          },
+          {
+            "title": "Información de casos en un solo lugar",
+            "industry": "Firma legal · Estados Unidos",
+            "description": "Su información estaba repartida entre su sistema de casos y otros reportes. La reunimos en un solo lugar para consultarla y darle seguimiento.",
+            "result": "~1,250 casos sincronizados."
+          },
+          {
+            "title": "Inventario y plan de compras con pronóstico",
+            "industry": "Manufactura",
+            "description": "Inventario de materia prima y producto terminado en un solo lugar, con un pronóstico que calcula cuándo comprar según el tiempo de entrega de cada insumo.",
+            "result": "Compras planeadas antes de quedarse sin material."
+          },
+          {
+            "title": "Dashboard diario de ventas",
+            "industry": "Comercio minorista",
+            "description": "Las ventas llegaban por correo sin procesar. Ahora se cargan solas cada día y se comparan contra el año anterior.",
+            "result": "33,000 registros al día procesados solos."
+          },
+          {
+            "title": "Portal de entrenadores y clientes con cobros automáticos",
+            "industry": "Entrenamiento personal",
+            "description": "Registro de sesiones, cobro a clientes y pago a entrenadores en un solo portal.",
+            "result": "Cobros y pagos sin trabajo manual."
+          }
+        ]
+      },
+      "automation": {
+        "kicker": "Menos trabajo manual",
+        "title": "Automatización de procesos",
+        "items": [
+          {
+            "title": "Registro y seguimiento de capacitaciones",
+            "industry": "Materiales de construcción",
+            "description": "El registro y seguimiento de participantes en sus capacitaciones a distribuidores era muy manual. Ahora se hace solo.",
+            "result": "$70,000 MXN al año ahorrados."
+          },
+          {
+            "title": "Consolidación de automatizaciones de ventas",
+            "industry": "Servicios de ventas",
+            "description": "Su operación de ventas dependía de cientos de escenarios de automatización. Los rediseñamos y consolidamos en unos cuantos, más fáciles de mantener.",
+            "result": "De 300 escenarios a 7."
+          },
+          {
+            "title": "Procesamiento automático de hojas de horas",
+            "industry": "Personal médico · Estados Unidos",
+            "description": "Cada hoja de horas se revisaba y calculaba a mano para nómina y facturación. Ahora el sistema la lee, calcula y valida.",
+            "result": "De 20 a 3 minutos por hoja."
+          }
+        ]
+      },
+      "speed": {
+        "kicker": "Respuesta inmediata",
+        "title": "Speed to Lead",
+        "items": [
+          {
+            "title": "Tech Provider de Meta",
+            "industry": "Credencial",
+            "description": "Conectamos WhatsApp, Instagram y Messenger de forma oficial, con una bandeja unificada, respuesta inmediata y seguimiento automático.",
+            "result": "De ~42 horas (promedio de la industria) a segundos."
+          },
+          {
+            "title": "Concierge con IA en todos los canales",
+            "industry": "Hotelería",
+            "description": "Atiende huéspedes en web, WhatsApp, Facebook e Instagram, genera links de reserva directa y pasa la conversación a una persona cuando hace falta.",
+            "result": "Atención 24/7 en 4 canales."
+          },
+          {
+            "title": "Speed to Lead: asistente de ventas con IA en WhatsApp",
+            "industry": "Servicios legales",
+            "description": "Consulta en automático las bases de datos de multas, guía la venta, valida el comprobante de pago y da seguimiento a quien no compró.",
+            "result": "Ventas 24/7 sin personal adicional."
+          },
+          {
+            "title": "Pedidos por WhatsApp con pago validado",
+            "industry": "Restaurante",
+            "description": "Los pedidos llegan estructurados, el pago se valida en el mismo flujo y la orden confirmada pasa directo a cocina.",
+            "result": "Cero pedidos sin pago confirmado."
+          }
+        ],
+        "link": "Ver cómo funciona Speed to Lead"
+      }
+    },
+    "rvo": {
+      "industry": "Diseño y construcción",
+      "status": "En implementación",
+      "description": "Presupuesto, control de obra, facturación, flujo mensual y portal del cliente en un solo sistema, en 3 módulos.",
+      "title": "Sistema de gestión de obra"
+    }
   }
 }

@@ -143,7 +143,7 @@
     "cta": "Book a Discovery Call"
   },
   "Footer": {
-    "description": "For businesses that don't want to lose a single lead. One inbox for all your channels, CRM sync, and a 24/7 AI chatbot.",
+    "description": "We understand how your business operates and build the system that gets it ready for what's next.",
     "servicesTitle": "Solutions",
     "omnichannelInbox": "Omnichannel Inbox",
     "dataMigration": "CRM Integration & Sync",
@@ -155,12 +155,18 @@
     "legalName": "Operated by MARIANA VALDIVIA REYES",
     "tagline": "Automation your customers can feel",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "exploreTitle": "Explore",
+    "startTitle": "Start"
   },
   "Nav": {
     "growth": "Growth Automation",
     "operational": "Operational Automation",
-    "cta": "Book a Discovery Call"
+    "cta": "Book your assessment",
+    "build": "What we build",
+    "method": "How we work",
+    "cases": "Cases",
+    "menu": "Open menu"
   },
   "OAHero": {
     "badge": "Operational Automation",
@@ -312,5 +318,356 @@
     "mirrorTitle": "Growth Automation",
     "mirrorText": "Speed-to-Lead — the system that unifies your channels and responds to leads in seconds — is our front-office practice: it automates how business comes in, from capture to conversion.",
     "mirrorCta": "See Growth Automation"
+  },
+  "Home": {
+    "Hero": {
+      "eyebrow": "Systems for operating businesses",
+      "title": "Run your business",
+      "titleHighlight": "on data.",
+      "subtitle": "We understand how your business operates and find the highest-impact opportunities with you. Then we design and implement the system that makes it happen, using AI where it truly saves work.",
+      "clientsIntro": "We've built systems for:",
+      "cta": "Book your assessment",
+      "ctaSecondary": "See cases"
+    },
+    "Build": {
+      "tag": "What we build",
+      "title": "What we",
+      "titleHighlight": "build",
+      "subtitle": "We build what your operation needs: whatever creates the most impact from where you are today, making the most of what you already use, with the least possible friction for your team.",
+      "includesLabel": "Includes",
+      "casesCta": "See cases",
+      "cards": {
+        "platform": {
+          "kicker": "A single source of truth",
+          "title": "Operations platform",
+          "description": "Your CRM, dashboards and client portals in one system. Your team works there and you see the numbers in real time.",
+          "includes": [
+            "CRM",
+            "Dashboards",
+            "Client portals",
+            "Internal tools"
+          ]
+        },
+        "automation": {
+          "kicker": "Less manual work",
+          "title": "Process automation",
+          "description": "What gets captured, calculated or followed up by hand today, the system does instead. We use AI where it truly saves work.",
+          "includes": [
+            "Records and follow-ups",
+            "Calculations and reconciliations",
+            "Scenario analysis"
+          ]
+        },
+        "speed": {
+          "kicker": "Instant response",
+          "title": "Speed to Lead",
+          "description": "All your channels in one inbox, with instant response, automatic follow-up and your CRM always up to date. We're a Meta Tech Provider: official connection to WhatsApp, Instagram and Messenger.",
+          "includes": [
+            "Unified inbox",
+            "24/7 response",
+            "Automatic follow-up",
+            "CRM sync"
+          ]
+        }
+      }
+    },
+    "Method": {
+      "tag": "How we work",
+      "title": "A method for deciding with data:",
+      "titleHighlight": "MEDIR.",
+      "subtitle": "\"Medir\" is Spanish for \"to measure.\" Five steps with clear timelines. The first two are free.",
+      "timeLabel": "Time",
+      "closing": "What isn't measured can't be controlled. That's why we start and end by measuring.",
+      "steps": {
+        "m": {
+          "letter": "M",
+          "kicker": "Step 1",
+          "title": "Map",
+          "description": "A call to understand how your business operates. Within 2 days we send you a report with the highest-impact opportunities.",
+          "time": "30 min + report in 2 days",
+          "payment": "Free"
+        },
+        "e": {
+          "letter": "E",
+          "kicker": "Step 2",
+          "title": "Evaluate",
+          "description": "We decide together what to tackle first. You get a fixed-scope proposal: what's delivered, when and how much it costs.",
+          "time": "Fixed-scope proposal",
+          "payment": "Free"
+        },
+        "d": {
+          "letter": "D",
+          "kicker": "Step 3",
+          "title": "Design",
+          "description": "We design the new process and the system that runs it, before writing any code.",
+          "time": "Process + system"
+        },
+        "i": {
+          "letter": "I",
+          "kicker": "Step 4",
+          "title": "Implement",
+          "description": "We build, migrate your data and train your team.",
+          "time": "First version in use in ~6 weeks"
+        },
+        "r": {
+          "letter": "R",
+          "kicker": "Step 5",
+          "title": "Review",
+          "description": "We measure whether it worked and adjust.",
+          "time": "Every month"
+        }
+      }
+    },
+    "Cases": {
+      "tag": "Cases",
+      "title": "What's already",
+      "titleHighlight": "working.",
+      "subtitle": "Measured results, not promises.",
+      "resultLabel": "Result",
+      "allCta": "See all cases",
+      "items": [
+        {
+          "title": "Real-time commissions dashboard",
+          "industry": "Solar energy",
+          "description": "Commissions, deposits and reports were done by hand. We built a real-time dashboard with automatic reconciliation.",
+          "result": "Commissions from 12 hours to 1 minute."
+        },
+        {
+          "title": "Sales platform for real estate developments",
+          "industry": "Real estate",
+          "description": "A platform that connects developments, brokers and leads in a single system.",
+          "result": "25+ developments, 12 brokers and 500+ leads a month."
+        },
+        {
+          "title": "Reintegra.ai: VAT refund platform",
+          "industry": "Calcium carbonate",
+          "description": "AI reads the tax authority's (SAT) letter and turns each point into a task with an owner. Worksheets build themselves by cross-matching invoices, payment receipts and bank statements, and the file comes out in the exact format the SAT requires.",
+          "result": "60% less time to prepare and submit the SAT request."
+        },
+        {
+          "title": "Training registration and follow-up",
+          "industry": "Construction materials",
+          "description": "Registering and following up on participants in their distributor trainings was highly manual. Now it runs on its own.",
+          "result": "$70,000 MXN saved per year."
+        },
+        {
+          "title": "Speed to Lead: AI sales assistant on WhatsApp",
+          "industry": "Legal services",
+          "description": "Automatically checks traffic-fine databases, guides the sale, validates the payment receipt and follows up with anyone who didn't buy.",
+          "result": "24/7 sales with no extra staff."
+        },
+        {
+          "title": "Sales automation consolidation",
+          "industry": "Sales services",
+          "description": "Their sales operation depended on hundreds of automation scenarios. We redesigned and consolidated them into a handful that are easier to maintain.",
+          "result": "From 300 scenarios to 7."
+        }
+      ],
+      "rvo": {
+        "title": "Construction management system",
+        "industry": "Design and construction",
+        "status": "In implementation",
+        "description": "Budgeting, site control, invoicing, monthly cash flow and a client portal in a single system, in 3 modules."
+      },
+      "more": [
+        {
+          "title": "Case information in one place",
+          "industry": "Law firm · United States",
+          "description": "Their information was spread across their case management system and other reports. We brought it into one place to review and follow up.",
+          "result": "~1,250 cases synced."
+        },
+        {
+          "title": "Automated timesheet processing",
+          "industry": "Medical staffing · United States",
+          "description": "Each timesheet was reviewed and calculated by hand for payroll and billing. Now the system reads, calculates and validates it.",
+          "result": "From 20 to 3 minutes per timesheet."
+        },
+        {
+          "title": "Inventory and purchasing plan with forecasting",
+          "industry": "Manufacturing",
+          "description": "Raw material and finished goods inventory in one place, with a forecast that calculates when to buy based on each supply's lead time.",
+          "result": "Purchases planned before running out of material."
+        },
+        {
+          "title": "Daily sales dashboard",
+          "industry": "Retail",
+          "description": "Sales arrived by email, unprocessed. Now they load automatically every day and are compared against the previous year.",
+          "result": "33,000 records a day processed automatically."
+        },
+        {
+          "title": "AI concierge across every channel",
+          "industry": "Hospitality",
+          "description": "Serves guests on web, WhatsApp, Facebook and Instagram, generates direct booking links and hands the conversation to a person when needed.",
+          "result": "24/7 service on 4 channels."
+        },
+        {
+          "title": "WhatsApp orders with validated payment",
+          "industry": "Restaurant",
+          "description": "Orders arrive structured, payment is validated in the same flow and confirmed orders go straight to the kitchen.",
+          "result": "Zero orders without confirmed payment."
+        },
+        {
+          "title": "Trainer and client portal with automatic billing",
+          "industry": "Personal training",
+          "description": "Session tracking, client billing and trainer payouts in a single portal.",
+          "result": "Billing and payouts with no manual work."
+        }
+      ]
+    },
+    "Fit": {
+      "tag": "Who it's for",
+      "title": "Are we",
+      "titleHighlight": "right for you?",
+      "yesTitle": "Yes, if…",
+      "noTitle": "No, if…",
+      "yes": [
+        "You run an established business, with a team and operations in motion, and you want to change how work gets done, not just add another tool.",
+        "Your company is certified or working toward certification and needs documented processes and evidence they're followed.",
+        "You want to make decisions with data."
+      ],
+      "no": [
+        "Your idea isn't operating yet.",
+        "It's a personal project.",
+        "You're just looking for \"a bot\"."
+      ]
+    },
+    "Team": {
+      "tag": "Who's behind it",
+      "title": "A team that understands the business",
+      "titleHighlight": "before writing code.",
+      "founderName": "Alberto Madero",
+      "founderRole": "Founder",
+      "founderInitials": "AM",
+      "founderText": "Leads the relationship and the assessment: understands how your business operates and what to build first.",
+      "teamName": "The team",
+      "teamRole": "Design, development and implementation",
+      "teamText": "Designs, builds and implements every system, and supports it once it's in use.",
+      "closing": "You deal with one person. A team has your back."
+    },
+    "FinalCTA": {
+      "title": "Let's find what to",
+      "titleHighlight": "build first.",
+      "description": "30 minutes, free. You walk away with the highest-impact opportunities for your operation.",
+      "cta": "Book your assessment",
+      "emailPrefix": "Or write to us at"
+    }
+  },
+  "CasesPage": {
+    "tag": "Cases",
+    "title": "What we've",
+    "titleHighlight": "built.",
+    "subtitle": "Systems in use at real companies, grouped by what they solve.",
+    "resultLabel": "Result",
+    "groups": {
+      "platform": {
+        "kicker": "A single source of truth",
+        "title": "Operations platform",
+        "items": [
+          {
+            "title": "Sales platform for real estate developments",
+            "industry": "Real estate",
+            "description": "A platform that connects developments, brokers and leads in a single system.",
+            "result": "25+ developments, 12 brokers and 500+ leads a month."
+          },
+          {
+            "title": "Real-time commissions dashboard",
+            "industry": "Solar energy",
+            "description": "Commissions, deposits and reports were done by hand. We built a real-time dashboard with automatic reconciliation.",
+            "result": "Commissions from 12 hours to 1 minute."
+          },
+          {
+            "title": "Reintegra.ai: VAT refund platform",
+            "industry": "Calcium carbonate",
+            "description": "AI reads the tax authority's (SAT) letter and turns each point into a task with an owner. Worksheets build themselves by cross-matching invoices, payment receipts and bank statements, and the file comes out in the exact format the SAT requires.",
+            "result": "60% less time to prepare and submit the SAT request."
+          },
+          {
+            "title": "Case information in one place",
+            "industry": "Law firm · United States",
+            "description": "Their information was spread across their case management system and other reports. We brought it into one place to review and follow up.",
+            "result": "~1,250 cases synced."
+          },
+          {
+            "title": "Inventory and purchasing plan with forecasting",
+            "industry": "Manufacturing",
+            "description": "Raw material and finished goods inventory in one place, with a forecast that calculates when to buy based on each supply's lead time.",
+            "result": "Purchases planned before running out of material."
+          },
+          {
+            "title": "Daily sales dashboard",
+            "industry": "Retail",
+            "description": "Sales arrived by email, unprocessed. Now they load automatically every day and are compared against the previous year.",
+            "result": "33,000 records a day processed automatically."
+          },
+          {
+            "title": "Trainer and client portal with automatic billing",
+            "industry": "Personal training",
+            "description": "Session tracking, client billing and trainer payouts in a single portal.",
+            "result": "Billing and payouts with no manual work."
+          }
+        ]
+      },
+      "automation": {
+        "kicker": "Less manual work",
+        "title": "Process automation",
+        "items": [
+          {
+            "title": "Training registration and follow-up",
+            "industry": "Construction materials",
+            "description": "Registering and following up on participants in their distributor trainings was highly manual. Now it runs on its own.",
+            "result": "$70,000 MXN saved per year."
+          },
+          {
+            "title": "Sales automation consolidation",
+            "industry": "Sales services",
+            "description": "Their sales operation depended on hundreds of automation scenarios. We redesigned and consolidated them into a handful that are easier to maintain.",
+            "result": "From 300 scenarios to 7."
+          },
+          {
+            "title": "Automated timesheet processing",
+            "industry": "Medical staffing · United States",
+            "description": "Each timesheet was reviewed and calculated by hand for payroll and billing. Now the system reads, calculates and validates it.",
+            "result": "From 20 to 3 minutes per timesheet."
+          }
+        ]
+      },
+      "speed": {
+        "kicker": "Instant response",
+        "title": "Speed to Lead",
+        "items": [
+          {
+            "title": "Meta Tech Provider",
+            "industry": "Credential",
+            "description": "We connect WhatsApp, Instagram and Messenger officially, with a unified inbox, instant response and automatic follow-up.",
+            "result": "From ~42 hours (industry average) to seconds."
+          },
+          {
+            "title": "AI concierge across every channel",
+            "industry": "Hospitality",
+            "description": "Serves guests on web, WhatsApp, Facebook and Instagram, generates direct booking links and hands the conversation to a person when needed.",
+            "result": "24/7 service on 4 channels."
+          },
+          {
+            "title": "Speed to Lead: AI sales assistant on WhatsApp",
+            "industry": "Legal services",
+            "description": "Automatically checks traffic-fine databases, guides the sale, validates the payment receipt and follows up with anyone who didn't buy.",
+            "result": "24/7 sales with no extra staff."
+          },
+          {
+            "title": "WhatsApp orders with validated payment",
+            "industry": "Restaurant",
+            "description": "Orders arrive structured, payment is validated in the same flow and confirmed orders go straight to the kitchen.",
+            "result": "Zero orders without confirmed payment."
+          }
+        ],
+        "link": "See how Speed to Lead works"
+      }
+    },
+    "rvo": {
+      "title": "Construction management system",
+      "industry": "Design and construction",
+      "status": "In implementation",
+      "description": "Budgeting, site control, invoicing, monthly cash flow and a client portal in a single system, in 3 modules."
+    }
   }
 }
