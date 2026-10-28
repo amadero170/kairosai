@@ -60,7 +60,7 @@ export default function Nav() {
             aria-label="Kairos"
             onClick={() => setOpen(false)}
           >
-            <KairosLogo className="text-[16px]" />
+            <KairosLogo subtitle className="text-[15px]" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">

@@ -72,15 +72,21 @@ export default function HomeMethod() {
                     <p className="font-light text-[14.5px] text-ink-2 leading-relaxed">
                       {t(`steps.${key}.description`)}
                     </p>
-                    <div className="mt-5 pt-4 border-t border-line-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-[13.5px]">
-                      <span className="lbl !text-[10.5px] !tracking-[0.14em]">{t("timeLabel")}</span>
-                      <span className="text-ink-2">{t(`steps.${key}.time`)}</span>
-                      {t.has(`steps.${key}.payment`) && (
-                        <span className="ml-auto font-display text-[10.5px] font-semibold uppercase tracking-[0.14em] text-ok bg-ok/10 px-2.5 py-1 rounded-full">
-                          {t(`steps.${key}.payment`)}
-                        </span>
-                      )}
-                    </div>
+                    {(t.has(`steps.${key}.time`) || t.has(`steps.${key}.payment`)) && (
+                      <div className="mt-5 pt-4 border-t border-line-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-[13.5px]">
+                        {t.has(`steps.${key}.time`) && (
+                          <>
+                            <span className="lbl !text-[10.5px] !tracking-[0.14em]">{t("timeLabel")}</span>
+                            <span className="text-ink-2">{t(`steps.${key}.time`)}</span>
+                          </>
+                        )}
+                        {t.has(`steps.${key}.payment`) && (
+                          <span className="ml-auto font-display text-[10.5px] font-semibold uppercase tracking-[0.14em] text-ok bg-ok/10 px-2.5 py-1 rounded-full">
+                            {t(`steps.${key}.payment`)}
+                          </span>
+                        )}
+                      </div>
+                    )}
                   </motion.div>
                 </motion.div>
               );

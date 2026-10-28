@@ -374,14 +374,13 @@
     "Method": {
       "title": "Un método para decidir con datos:",
       "titleHighlight": "MEDIR.",
-      "subtitle": "Cinco pasos con tiempos claros. Los dos primeros no tienen costo.",
+      "subtitle": "Cinco pasos con tiempos claros.",
       "steps": {
         "m": {
           "letter": "M",
           "title": "Mapear",
           "description": "Una llamada para entender cómo opera tu empresa. En 2 días te entregamos un reporte con las oportunidades de mayor impacto.",
           "time": "30 min + reporte en 2 días",
-          "payment": "Sin costo",
           "kicker": "Paso 1"
         },
         "e": {
@@ -389,7 +388,6 @@
           "title": "Elegir",
           "description": "Decidimos juntos qué atacar primero. Recibes una propuesta de alcance cerrado: qué se entrega, cuándo y cuánto cuesta.",
           "time": "Propuesta de alcance cerrado",
-          "payment": "Sin costo",
           "kicker": "Paso 2"
         },
         "d": {
@@ -410,7 +408,6 @@
           "letter": "R",
           "title": "Revisar",
           "description": "Medimos si funcionó y ajustamos.",
-          "time": "Cada mes",
           "kicker": "Paso 5"
         }
       },
@@ -423,12 +420,6 @@
       "subtitle": "Resultados medidos, no promesas.",
       "resultLabel": "Resultado",
       "items": [
-        {
-          "title": "Dashboard de comisiones en tiempo real",
-          "industry": "Energía solar",
-          "description": "Comisiones, depósitos y reportes se hacían a mano. Construimos un dashboard en tiempo real con conciliación automática.",
-          "result": "Comisiones de 12 horas a 1 minuto."
-        },
         {
           "title": "Plataforma comercial para desarrollos inmobiliarios",
           "industry": "Inmobiliario",
@@ -458,6 +449,12 @@
           "industry": "Servicios de ventas",
           "description": "Su operación de ventas dependía de cientos de escenarios de automatización. Los rediseñamos y consolidamos en unos cuantos, más fáciles de mantener.",
           "result": "De 300 escenarios a 7."
+        },
+        {
+          "title": "Dashboard de comisiones en tiempo real",
+          "industry": "Energía solar",
+          "description": "Comisiones, depósitos y reportes se hacían a mano. Construimos un dashboard en tiempo real con conciliación automática.",
+          "result": "Comisiones de 12 horas a 1 minuto."
         }
       ],
       "rvo": {
@@ -547,7 +544,7 @@
     "FinalCTA": {
       "title": "Encontremos qué conviene",
       "titleHighlight": "construir primero.",
-      "description": "30 minutos, sin costo. Te llevas las oportunidades de mayor impacto para tu operación.",
+      "description": "30 minutos. Te llevas las oportunidades de mayor impacto para tu operación.",
       "cta": "Agenda tu diagnóstico",
       "emailPrefix": "O escríbenos a"
     }

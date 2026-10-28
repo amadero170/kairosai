@@ -375,7 +375,7 @@
       "tag": "How we work",
       "title": "A method for deciding with data:",
       "titleHighlight": "MEDIR.",
-      "subtitle": "\"Medir\" is Spanish for \"to measure.\" Five steps with clear timelines. The first two are free.",
+      "subtitle": "\"Medir\" is Spanish for \"to measure.\" Five steps with clear timelines.",
       "timeLabel": "Time",
       "closing": "What isn't measured can't be controlled. That's why we start and end by measuring.",
       "steps": {
@@ -384,16 +384,14 @@
           "kicker": "Step 1",
           "title": "Map",
           "description": "A call to understand how your business operates. Within 2 days we send you a report with the highest-impact opportunities.",
-          "time": "30 min + report in 2 days",
-          "payment": "Free"
+          "time": "30 min + report in 2 days"
         },
         "e": {
           "letter": "E",
           "kicker": "Step 2",
           "title": "Evaluate",
           "description": "We decide together what to tackle first. You get a fixed-scope proposal: what's delivered, when and how much it costs.",
-          "time": "Fixed-scope proposal",
-          "payment": "Free"
+          "time": "Fixed-scope proposal"
         },
         "d": {
           "letter": "D",
@@ -413,8 +411,7 @@
           "letter": "R",
           "kicker": "Step 5",
           "title": "Review",
-          "description": "We measure whether it worked and adjust.",
-          "time": "Every month"
+          "description": "We measure whether it worked and adjust."
         }
       }
     },
@@ -426,12 +423,6 @@
       "resultLabel": "Result",
       "allCta": "See all cases",
       "items": [
-        {
-          "title": "Real-time commissions dashboard",
-          "industry": "Solar energy",
-          "description": "Commissions, deposits and reports were done by hand. We built a real-time dashboard with automatic reconciliation.",
-          "result": "Commissions from 12 hours to 1 minute."
-        },
         {
           "title": "Sales platform for real estate developments",
           "industry": "Real estate",
@@ -461,6 +452,12 @@
           "industry": "Sales services",
           "description": "Their sales operation depended on hundreds of automation scenarios. We redesigned and consolidated them into a handful that are easier to maintain.",
           "result": "From 300 scenarios to 7."
+        },
+        {
+          "title": "Real-time commissions dashboard",
+          "industry": "Solar energy",
+          "description": "Commissions, deposits and reports were done by hand. We built a real-time dashboard with automatic reconciliation.",
+          "result": "Commissions from 12 hours to 1 minute."
         }
       ],
       "rvo": {
@@ -547,7 +544,7 @@
     "FinalCTA": {
       "title": "Let's find what to",
       "titleHighlight": "build first.",
-      "description": "30 minutes, free. You walk away with the highest-impact opportunities for your operation.",
+      "description": "30 minutes. You walk away with the highest-impact opportunities for your operation.",
       "cta": "Book your assessment",
       "emailPrefix": "Or write to us at"
     }
