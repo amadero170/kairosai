@@ -33,11 +33,11 @@ export default function HomeHero({ cover }: { cover?: HeroCover }) {
       >
         {cover === "background" && (
           <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-            <img src="/fondo-claro-2.jpg" alt="" className="w-full h-full object-cover object-[center_60%]" />
+            <img src="/fondo-claro-2.jpg" alt="" className="w-full h-full object-cover object-[80%_center] md:object-[center_60%]" />
             {/* Light veil over the text column, then fade into the canvas under the nav and at the bottom */}
-            <div className="absolute inset-0 bg-gradient-to-r from-canvas/75 via-canvas/35 to-canvas/0" />
-            <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-canvas to-canvas/0" />
-            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-b from-canvas/0 to-canvas" />
+            <div className="absolute inset-0 bg-gradient-to-r from-canvas/60 via-canvas/30 to-canvas/0 md:from-canvas/75 md:via-canvas/35" />
+            <div className="absolute inset-x-0 top-0 h-20 md:h-40 bg-gradient-to-b from-canvas to-canvas/0" />
+            <div className="absolute inset-x-0 bottom-0 h-1/5 md:h-1/3 bg-gradient-to-b from-canvas/0 to-canvas" />
           </div>
         )}
         {/* Faint double ring, the circle from the Kairos logo */}

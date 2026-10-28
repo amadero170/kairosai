@@ -7,7 +7,7 @@ const logos = [
   { src: "/clients-logos/mazda-white-logo-png-701751694713321wd3xjkgicu.png", alt: "Mazda", h: "h-9", invert: true },
   { src: "/clients-logos/haas.webp", alt: "Haas", h: "h-7" },
   { src: "/clients-logos/air-new-zealand-logo.svg", alt: "Air New Zealand", h: "h-6" },
-  { src: "/clients-logos/ahoy-club-logo.webp", alt: "Ahoy Club", h: "h-5" },
+  { src: "/clients-logos/ahoy-club-logo.png", alt: "Ahoy Club", h: "h-5" },
   { src: "/clients-logos/connect-health-logo.png", alt: "ConnectHealth", h: "h-6" },
   { src: "/clients-logos/eyeon-logo.png", alt: "EyeOn Automations", h: "h-8" },
   { src: "/clients-logos/vive-solar-logo.png", alt: "Vive Solar", h: "h-6" },
