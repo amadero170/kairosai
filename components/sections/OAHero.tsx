@@ -24,7 +24,7 @@ export default function OAHero() {
         <div className="absolute inset-0 flex items-center justify-center">
           <img
             src="/logo-kairos-negro.png"
-            alt="Kairos Software Studio"
+            alt="Kairos AI & Software Studio"
             className="w-64 md:w-[28rem] h-auto object-contain"
           />
         </div>

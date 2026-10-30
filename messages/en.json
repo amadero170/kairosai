@@ -324,7 +324,7 @@
       "eyebrow": "Systems for operating businesses",
       "title": "Run your business",
       "titleHighlight": "on data.",
-      "subtitle": "We understand how your business operates and find the highest-impact opportunities with you. Then we design and implement the system that makes it happen, using AI where it truly saves work.",
+      "subtitle": "We understand how your company operates and work with you to find the highest-impact opportunities. Then we design and implement the system that makes it happen.",
       "clientsIntro": "We've built systems for:",
       "cta": "Book your assessment",
       "ctaSecondary": "See cases"
@@ -333,7 +333,7 @@
       "tag": "What we build",
       "title": "What we",
       "titleHighlight": "build",
-      "subtitle": "We build what your operation needs: whatever creates the most impact from where you are today, making the most of what you already use, with the least possible friction for your team.",
+      "subtitle": "We build custom solutions, combining the latest in AI and software with a deep understanding of your operation. We bring in the technologies that can have the greatest impact on your business, making the most of what you already have and starting from where you are today.",
       "includesLabel": "Includes",
       "casesCta": "See cases",
       "cards": {
@@ -351,7 +351,7 @@
         "automation": {
           "kicker": "Less manual work",
           "title": "Process automation",
-          "description": "What gets captured, calculated or followed up by hand today, the system does instead. We use AI where it truly saves work.",
+          "description": "What gets captured, calculated or followed up by hand today, the system does instead.",
           "includes": [
             "Records and follow-ups",
             "Calculations and reconciliations",
@@ -666,5 +666,99 @@
       "status": "In implementation",
       "description": "Budgeting, site control, invoicing, monthly cash flow and a client portal in a single system, in 3 modules."
     }
+  },
+  "Mapeo": {
+    "metaTitle": "Before our session — Kairos",
+    "tag": "Mapping session",
+    "title": "Before",
+    "titleHighlight": "our session.",
+    "lead": "So we come prepared, could you answer 6 questions? It takes 2 minutes.",
+    "required": "required",
+    "optional": "optional",
+    "q1": {
+      "label": "Who are you?",
+      "name": "Your name",
+      "company": "Company",
+      "site": "Website or Instagram"
+    },
+    "q2": {
+      "label": "What does your business do and how many people work there?",
+      "business": "E.g. dental clinic, construction company, building-materials distributor",
+      "people": "People who work there",
+      "peopleOptions": [
+        "1–5",
+        "6–10",
+        "11–30",
+        "31–100",
+        "More than 100"
+      ]
+    },
+    "q3": {
+      "label": "Which tools do you run on today?",
+      "hint": "Check all that apply.",
+      "detail": "Which one?",
+      "options": [
+        {
+          "key": "whatsapp",
+          "label": "WhatsApp"
+        },
+        {
+          "key": "sheets",
+          "label": "Excel or Google Sheets"
+        },
+        {
+          "key": "crm",
+          "label": "CRM",
+          "detail": true
+        },
+        {
+          "key": "erp",
+          "label": "Accounting or back-office system (QuickBooks, SAP…)",
+          "detail": true
+        },
+        {
+          "key": "industry",
+          "label": "Industry-specific software",
+          "detail": true
+        },
+        {
+          "key": "paper",
+          "label": "Paper"
+        },
+        {
+          "key": "other",
+          "label": "Other",
+          "detail": true
+        }
+      ]
+    },
+    "q4": {
+      "label": "Do you invest in advertising to get customers?",
+      "options": [
+        "No",
+        "Less than $10,000 MXN a month",
+        "$10,000 to $50,000 MXN a month",
+        "More than $50,000 MXN a month"
+      ]
+    },
+    "q5": {
+      "label": "Do you know how much it costs you, on average, to get a new customer?",
+      "options": [
+        "Yes",
+        "Roughly",
+        "No"
+      ]
+    },
+    "q6": {
+      "label": "If one single task in your business did itself starting tomorrow, which would it be?",
+      "placeholder": "Tell us in your own words."
+    },
+    "submit": "Send answers",
+    "sending": "Sending…",
+    "privacy": "We only use your answers to prepare the session.",
+    "privacyLink": "Privacy policy",
+    "successTitle": "Thank you!",
+    "successText": "We have your answers. See you at the session.",
+    "error": "We couldn't send your answers. Please try again or write to alberto@kairosautomation.ai."
   }
 }

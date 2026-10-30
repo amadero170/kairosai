@@ -323,7 +323,7 @@
     "Hero": {
       "title": "Que tu empresa opere",
       "titleHighlight": "con datos.",
-      "subtitle": "Entendemos cómo opera tu empresa y encontramos contigo las oportunidades de mayor impacto. Después diseñamos e implementamos el sistema que lo hace realidad, y usamos IA donde de verdad ahorra trabajo.",
+      "subtitle": "Entendemos cómo opera tu empresa y encontramos contigo las oportunidades de mayor impacto. Después diseñamos e implementamos el sistema que lo hace realidad.",
       "clientsIntro": "Hemos construido sistemas para:",
       "cta": "Agenda tu diagnóstico",
       "ctaSecondary": "Ver casos",
@@ -332,7 +332,7 @@
     "Build": {
       "title": "Lo que",
       "titleHighlight": "construimos",
-      "subtitle": "Construimos lo que tu operación necesita: lo que más impacto te genera desde donde estás hoy, aprovechando lo que ya usas y con la menor fricción posible para tu equipo.",
+      "subtitle": "Construimos soluciones a la medida, combinando lo último en IA y software con un profundo entendimiento de tu operación. Incorporamos las tecnologías que pueden generar mayor impacto para tu negocio, aprovechando lo que ya tienes y partiendo de tu realidad actual.",
       "cards": {
         "platform": {
           "kicker": "Una sola fuente de verdad",
@@ -348,7 +348,7 @@
         "automation": {
           "kicker": "Menos trabajo manual",
           "title": "Automatización de procesos",
-          "description": "Lo que hoy se captura, se calcula o se le da seguimiento a mano, lo hace el sistema. Usamos IA donde de verdad ahorra trabajo.",
+          "description": "Lo que hoy se captura, se calcula o se le da seguimiento a mano, lo hace el sistema.",
           "includes": [
             "Registros y seguimientos",
             "Cálculos y conciliaciones",
@@ -666,5 +666,99 @@
       "description": "Presupuesto, control de obra, facturación, flujo mensual y portal del cliente en un solo sistema, en 3 módulos.",
       "title": "Sistema de gestión de obra"
     }
+  },
+  "Mapeo": {
+    "metaTitle": "Antes de nuestra sesión — Kairos",
+    "tag": "Sesión de mapeo",
+    "title": "Antes de",
+    "titleHighlight": "nuestra sesión.",
+    "lead": "Para llegar preparados, ¿nos ayudas con 6 preguntas? Son 2 minutos.",
+    "required": "obligatorio",
+    "optional": "opcional",
+    "q1": {
+      "label": "¿Quién eres?",
+      "name": "Tu nombre",
+      "company": "Empresa",
+      "site": "Sitio web o Instagram"
+    },
+    "q2": {
+      "label": "¿A qué se dedica tu negocio y cuántas personas trabajan en él?",
+      "business": "Ej. clínica dental, constructora, distribuidora de materiales",
+      "people": "Personas que trabajan en él",
+      "peopleOptions": [
+        "1–5",
+        "6–10",
+        "11–30",
+        "31–100",
+        "Más de 100"
+      ]
+    },
+    "q3": {
+      "label": "¿Con qué herramientas operas hoy?",
+      "hint": "Marca todas las que uses.",
+      "detail": "¿Cuál?",
+      "options": [
+        {
+          "key": "whatsapp",
+          "label": "WhatsApp"
+        },
+        {
+          "key": "sheets",
+          "label": "Excel o Google Sheets"
+        },
+        {
+          "key": "crm",
+          "label": "CRM",
+          "detail": true
+        },
+        {
+          "key": "erp",
+          "label": "Sistema administrativo o contable (CONTPAQi, Aspel, SAP…)",
+          "detail": true
+        },
+        {
+          "key": "industry",
+          "label": "Software de tu industria",
+          "detail": true
+        },
+        {
+          "key": "paper",
+          "label": "Papel"
+        },
+        {
+          "key": "other",
+          "label": "Otro",
+          "detail": true
+        }
+      ]
+    },
+    "q4": {
+      "label": "¿Inviertes en publicidad para conseguir clientes?",
+      "options": [
+        "No",
+        "Menos de $10,000 al mes",
+        "$10,000 a $50,000 al mes",
+        "Más de $50,000 al mes"
+      ]
+    },
+    "q5": {
+      "label": "¿Sabes cuánto te cuesta, en promedio, conseguir un cliente nuevo?",
+      "options": [
+        "Sí",
+        "Más o menos",
+        "No"
+      ]
+    },
+    "q6": {
+      "label": "Si mañana una sola tarea de tu negocio se hiciera sola, ¿cuál sería?",
+      "placeholder": "Cuéntanos con tus palabras."
+    },
+    "submit": "Enviar respuestas",
+    "sending": "Enviando…",
+    "privacy": "Usamos tus respuestas solo para preparar la sesión.",
+    "privacyLink": "Aviso de privacidad",
+    "successTitle": "¡Gracias!",
+    "successText": "Ya tenemos tus respuestas. Nos vemos en la sesión.",
+    "error": "No pudimos enviar tus respuestas. Intenta de nuevo o escríbenos a alberto@kairosautomation.ai."
   }
 }

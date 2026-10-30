@@ -21,8 +21,8 @@ export default function KairosLogo({
       </svg>
       <span className="relative font-semibold tracking-[0.38em] mr-[-0.38em] leading-none">KAIROS</span>
       {subtitle && (
-        <span className="relative mt-[0.45em] text-[0.36em] font-medium tracking-[0.55em] mr-[-0.55em] text-ink-2 leading-none">
-          SOFTWARE STUDIO
+        <span className="relative mt-[0.45em] text-[0.34em] font-medium tracking-[0.34em] mr-[-0.34em] text-ink-2 leading-none whitespace-nowrap">
+          AI &amp; SOFTWARE STUDIO
         </span>
       )}
     </span>
